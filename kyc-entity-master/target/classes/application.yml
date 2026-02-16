@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Kyc-entity-master
+  profiles:
+    active: dev
+server:
+  port: 3080

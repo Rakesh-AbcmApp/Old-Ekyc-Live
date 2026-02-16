@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: abcm-dl-api
+
+  profiles:
+    active: prod
+
+  config:
+    import:
+      - classpath:/response-massage.yml
+      - classpath:/application-email-config.yml

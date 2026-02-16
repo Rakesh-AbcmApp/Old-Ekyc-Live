@@ -1,0 +1,51 @@
+custom:
+  messages:
+    success: "Success"
+    service-inactive: "service is inactive"
+    merchant-inactive: "Merchant is inactive."
+    Balance: "Insufficient balance for the Merchant"
+    Wallet-not-found: "Wallet Not Found"
+    merchantId-Validation: "Merchant Id is Required"
+    Consent-Validation: "Consent must be 'Y'"
+    requestID-validation: "Invalid input: request ID is required."
+    PAN-format-validation: "Invalid format for PAN number."
+    Error-Response: "Error while processing the response"
+    Not-Found: "Merchant Details Not Found"
+    pan-report-not-found: "No records found."
+    pan-validation-msg: "PAN verified successfully"
+    pan-validation-failed-msg: "PAN verification failed"
+    verification-id-msg: "Duplicate transaction: request already processed"
+    Key: "Unauthorized Invalid API Key or App ID"
+    failed: "Failed"
+    internal-server: "Internal Server Error"
+    product-not-found: "Product Details not found"
+    provider-invalid-res: "The service is currently unavailable. Please try again later"
+    porvider-blc-low: "Server is currently busy. Please try again later."
+    wallet-expired: "Wallet validity expired"
+    order-id-missing: "Order ID is required."
+    order-id-duplicate: "Provided Order ID already exists. Please provide a unique Order ID."
+  
+
+  codes:
+    success: 200
+    service-inactive: 201
+    merchant-inactive: 202
+    Balance: 203
+    Wallet-not-found: 204
+    merchantId-Validation: 205
+    Consent-Validation: 206
+    requestID-validation: 208
+    PAN-format-validation: 210
+    pan-validation-msg: 211
+    verification-id-msg: 212
+    pan-validation-failed-msg: 214
+    Not-Found: 404
+    Key: 403
+    failed: 500
+    internal-server: 500
+    Error-Response: 500
+    provider-invalid-res: 503
+    product-not-found: 422
+    porvider-blc-low: 429
+    wallet-expired: 309
+    order-id-missing: 400

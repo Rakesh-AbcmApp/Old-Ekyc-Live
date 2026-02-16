@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Low Wallet Balance Alert</title>
+  <!-- Poppins Google Font CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    p {
+      margin: 6px 0;
+      font-size: 13px;
+    }
+    .table-body {
+      background-image: url(http://203.192.228.125:1002/abcm-dl-api/e-KYCEmailTemplate/blank-1.jpg);
+      background-position-y: -14px;
+      background-repeat: no-repeat;
+      height: 200px;
+      background-size: initial;
+    }
+    .table-body img {
+	background-color: #ffffff; /* White background */
+        width: 100px;
+        margin: 1rem;
+    }
+    .table-inner {
+      padding: 0 0.75rem;
+    }
+
+    
+    .xx-low-blnc {text-align: center;}
+    .xx-low-blnc h2{
+    margin: 0;
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 53px;
+    text-shadow: 0 1px 2px #000000;
+    }
+    .xx-low-blnc span{
+          margin: 0;
+    
+    color: #ea3135;
+    font-size: 2.63rem;
+    font-weight: bolder;
+    line-height: 40px;
+    text-shadow: 0 1px 1px #000000;
+    }
+  </style>
+
+
+</head>
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family: 'Poppins', sans-serif;">
+  
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f4f4" style="margin: 1rem 0;">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; box-shadow:0 2px 6px rgba(0,0,0,0.1); font-family: 'Poppins', sans-serif;">
+          <!-- Header -->
+          <!-- <tr>
+            <td bgcolor="#004aad" style="padding:10px; text-align:center; color:#ffffff; font-family: 'Poppins', sans-serif;">
+              <h4 style="margin:0; font-size:18px;">Low Wallet Balance – Urgent Action Required</h4>
+            </td>
+          </tr> -->
+
+          <!-- Body -->
+          <tr>
+            <td style="padding:0px; font-family:'Poppins', sans-serif; color:#333333; font-size:13px; line-height:21px;">
+               <div class="table-body">
+                <img src="https://ekyc.ablepay.in/view-kyc/assets/images/logo.png" class="img-fluid" alt="logo">
+                <div class="xx-low-blnc">
+                  <h2>Current Balance is Rs. </h2>
+                  <span>{{Your_Balance}}</span>
+                </div>
+              </div>
+              <div class="table-inner">
+              <p  "><strong>Dear {{MerchantName}},</strong></p>
+
+              <p  ">We hope this message finds you well.</p>
+
+              <p  ">
+                This is a courtesy reminder that your wallet balance with <strong>e-KYC</strong> has dropped below the minimum threshold required to continue uninterrupted services.
+              </p>
+
+              <!-- Highlight Box -->
+              <!-- <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin:6px 0;">
+                  <tr>
+                    <td bgcolor="#95d8ed" style="border-radius:5px; padding:10px; border-left:4px solid #f4a100; font-weight:bold; margin-left: 8rem; display: inline-block;">
+                      Current Wallet Balance: ₹ {Your_Balance}
+                    </td>
+                  </tr>
+                </table> -->
+
+              <p  ">To avoid disruption in services, we request you to top-up your wallet immediately by clicking the button below:</p>
+
+              <!-- CTA Button -->
+              <table cellpadding="0" cellspacing="0" border="0" style="margin: 0;">
+                  <tr>
+                    <td align="center">
+                      <div style="text-align: center; margin-left: 11.5rem;">
+                        <a href="https://ekyc.ablepay.in/view-kyc/login" style="background-color:#004aad; color:#ffffff; text-decoration:none; margin-bottom: 1rem;
+                        padding:6px 24px; border-radius:5px; display:inline-block; font-family:'Poppins', sans-serif; font-size:14px;">Recharge Wallet Now</a>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+
+              <p style="margin-top:10px;">Please note that failure to maintain a sufficient balance may result in temporary suspension of services until the wallet is replenished.</p>
+
+              <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+
+              <p>Thank you for your prompt attention to this matter.</p>
+
+              <p>Warm regards,<br><strong>Team ABCM APP</strong></p>
+            </div>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:20px; text-align:center; font-family:'Poppins', sans-serif; font-size:12px; color:#888888; background: azure;">
+              &copy; 2025 Chatnpay. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

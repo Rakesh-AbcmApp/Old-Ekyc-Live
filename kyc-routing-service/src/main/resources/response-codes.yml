@@ -1,0 +1,48 @@
+response:
+  codes:
+    SUCCESS:
+      code: 200
+      message: Success
+    MERCHANT_ONBOARD_SUCCESS:
+      code: 200
+      message: Merchant onboarded successfully
+    MERCHANT_UPDATE_SUCCESS:
+      code: 200
+      message: Merchant updated successfully
+    FETCH_SUCCESS:
+      code: 200
+      message: Data fetched successfully
+    BAD_REQUEST:
+      code: 400
+      message: Invalid input or missing parameters
+    UNAUTHORIZED:
+      code: 401
+      message: Authentication failed
+    FORBIDDEN:
+      code: 403
+      message: You do not have permission to access this resource
+    NOT_FOUND:
+      code: 404
+      message: Resource not found
+    INTERNAL_ERROR:
+      code: 500
+      message: An unexpected error occurred
+    SERVICE_UNAVAILABLE:
+      code: 503
+      message: Service is currently unavailable
+    DELETE_MSG:
+      code: 204
+      message: Data deleted successfully
+    PROVIDER_ONBOARD_SUCCESS:
+      code: 200
+      message: Provider onboarded successfully
+    PROVIDER_UPDATE_SUCCESS:
+      code: 200
+      message: Provider updated successfully
+
+urls:
+  KYC_URL: http://203.192.228.125:1002/kyc-report/api/v1/kyc/report
+
+  
+
+

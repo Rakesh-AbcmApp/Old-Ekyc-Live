@@ -1,0 +1,36 @@
+2025-06-13 10:26:52 [restartedMain] INFO  : Starting AbcmKycReportingServiceApplication using Java 17.0.1 with PID 14440 (C:\KycServicerABcm\KycAllUpdated\abcm-kyc-reporting-service\abcm-kyc-reporting-service\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-kyc-reporting-service\abcm-kyc-reporting-service)
+2025-06-13 10:26:52 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-13 10:26:52 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-13 10:26:52 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-13 10:26:56 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-13 10:26:56 [restartedMain] INFO  : Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interface.
+2025-06-13 10:27:00 [restartedMain] INFO  : Tomcat initialized with port 3081 (http)
+2025-06-13 10:27:00 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-13 10:27:00 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-06-13 10:27:00 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-13 10:27:00 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 7868 ms
+2025-06-13 10:27:02 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-13 10:27:02 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.13.Final
+2025-06-13 10:27:02 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-13 10:27:03 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-13 10:27:04 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-06-13 10:27:05 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@757d432d
+2025-06-13 10:27:05 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-06-13 10:27:05 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-13 10:27:10 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-13 10:27:11 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 10:27:14 [restartedMain] INFO  : Tomcat started on port 3081 (http) with context path '/'
+2025-06-13 10:27:14 [restartedMain] INFO  : Started AbcmKycReportingServiceApplication in 23.126 seconds (process running for 27.367)
+2025-06-13 12:24:00 [RMI TCP Connection(119)-127.0.0.1] INFO  : Application shutdown requested.
+2025-06-13 12:24:00 [RMI TCP Connection(119)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-13 12:24:00 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-13 12:24:00 [RMI TCP Connection(119)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-13 12:24:00 [RMI TCP Connection(119)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-06-13 12:24:00 [RMI TCP Connection(119)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

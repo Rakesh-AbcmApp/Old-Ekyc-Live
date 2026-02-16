@@ -1,0 +1,27 @@
+/* media css abcm kyc-services */
+/* written by Arvind */
+
+
+@media only screen and (max-width:768px){
+    .table-card > .card-header{
+        flex-direction: column;
+        gap: 8px;
+    }
+    .table-card > .card-header select{
+        width: 100% !important;
+    }
+    .kyc-products {
+        flex-direction: column;
+    }
+    
+    
+}
+
+/* min width 768px */
+
+@media only screen and (min-width:767.98px) and (max-width:920px){
+    .kyc-box h4 {
+        flex-direction: column !important;
+        gap: 5px;
+    }
+}

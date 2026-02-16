@@ -1,0 +1,808 @@
+2025-04-21 00:24:43 [http-nio-8087-exec-9] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-21 00:24:43 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 00:24:47 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 00:24:48 [http-nio-8087-exec-2] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb)]
+2025-04-21 00:24:48 [http-nio-8087-exec-2] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 00:26:31 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 00:26:32 [http-nio-8087-exec-6] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb)]
+2025-04-21 00:26:32 [http-nio-8087-exec-6] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, serviceProviderName=ZOOP, apiKey=62b166db6e1af8001ede331e, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 00:45:13 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 00:46:07 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 00:46:07 [Thread-143] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 00:46:07 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 00:46:07 [Thread-143] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 00:46:07 [Thread-143] INFO  : HikariPool-36 - Shutdown initiated...
+2025-04-21 00:46:07 [Thread-143] INFO  : HikariPool-36 - Shutdown completed.
+2025-04-21 00:46:08 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 5736 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 00:46:08 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 00:46:09 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 00:46:09 [restartedMain] INFO  : Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2025-04-21 00:46:10 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 00:46:10 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 00:46:10 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 00:46:10 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 00:46:10 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 00:46:10 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1967 ms
+2025-04-21 00:46:10 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 00:46:10 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 00:46:10 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 00:46:10 [restartedMain] INFO  : HikariPool-37 - Starting...
+2025-04-21 00:46:10 [restartedMain] INFO  : HikariPool-37 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c12da10
+2025-04-21 00:46:10 [restartedMain] INFO  : HikariPool-37 - Start completed.
+2025-04-21 00:46:10 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-37)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 00:46:11 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 00:46:11 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 00:46:12 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 00:46:12 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-21 00:46:12 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 00:46:12 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 4.543 seconds (process running for 6658.041)
+2025-04-21 00:46:12 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 00:46:17 [http-nio-8087-exec-3] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 00:46:17 [http-nio-8087-exec-3] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 00:46:17 [http-nio-8087-exec-3] INFO  : Completed initialization in 4 ms
+2025-04-21 00:46:17 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 00:53:26 [RMI TCP Connection(219)-127.0.0.1] INFO  : Application shutdown requested.
+2025-04-21 00:53:26 [RMI TCP Connection(219)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 00:53:26 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 00:53:26 [RMI TCP Connection(219)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 00:53:26 [RMI TCP Connection(219)-127.0.0.1] INFO  : HikariPool-37 - Shutdown initiated...
+2025-04-21 00:53:26 [RMI TCP Connection(219)-127.0.0.1] INFO  : HikariPool-37 - Shutdown completed.
+2025-04-21 00:55:17 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 00:55:17 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 00:55:17 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-21 00:55:17 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-21 00:55:18 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 00:55:19 [restartedMain] INFO  : Finished Spring Data repository scanning in 138 ms. Found 6 JPA repository interfaces.
+2025-04-21 00:55:20 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 00:55:20 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 00:55:20 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 00:55:20 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 00:55:20 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 00:55:20 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3546 ms
+2025-04-21 00:55:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 00:55:22 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-21 00:55:22 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 00:55:22 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 00:55:23 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-04-21 00:55:23 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4d05804c
+2025-04-21 00:55:23 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-04-21 00:55:23 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 00:55:26 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 00:55:26 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 00:55:27 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-21 00:55:28 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 00:55:30 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 00:55:30 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 13.681 seconds (process running for 16.572)
+2025-04-21 00:55:35 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 00:55:35 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 00:55:35 [http-nio-8087-exec-1] INFO  : Completed initialization in 2 ms
+2025-04-21 01:01:40 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 01:53:22 [http-nio-8087-exec-6] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-21 01:53:22 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 01:53:25 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 01:56:13 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:00:58 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:02:04 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:04:48 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:14:16 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:19:13 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 02:21:06 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:05:20 [http-nio-8087-exec-1] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-21 03:05:20 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:05:22 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:06:18 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:06:55 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:07:42 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:08:27 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=wnp_admin, email=, phone=, alterNativePhone=, businessType=PvtLtd, websiteUrl=, businessAddress=, country=, state=, city=, pincode=, providerName=1,Zoop, serviceProviderId=null, aaddharRate=, panRate=, gstRate=, GstadvanceRate=null, username=abcm, password=123456)
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : Client ID: 1
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : Provider Name: Zoop
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : New Merchant Block
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : Max MID fetched: 2
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : Set values
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : clientId
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : clientId Not null
+2025-04-21 03:08:40 [http-nio-8087-exec-5] INFO  : clientIdEnd
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=Wainpay, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.00, panRate=4.5, gstRate=2, GstadvanceRate=null, username=m1001, password=m@123)
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : Client ID: 1
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : Provider Name: Zoop
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : New Merchant Block
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : Max MID fetched: 2
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : Set values
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : clientId
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : clientId Not null
+2025-04-21 03:10:52 [http-nio-8087-exec-2] INFO  : clientIdEnd
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=Wainpay, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.00, panRate=4.5, gstRate=2, GstadvanceRate=null, username=m1001, password=m@123)
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : Client ID: 1
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : Provider Name: Zoop
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : New Merchant Block
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : Max MID fetched: 2
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : Set values
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : clientId
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : clientId Not null
+2025-04-21 03:11:03 [http-nio-8087-exec-7] INFO  : clientIdEnd
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=Wainpay, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.00, panRate=4.5, gstRate=2, GstadvanceRate=null, username=m1001, password=m@123)
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : Client ID: 1
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : Provider Name: Zoop
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : New Merchant Block
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : Max MID fetched: 2
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : Set values
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : clientId
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : clientId Not null
+2025-04-21 03:11:11 [http-nio-8087-exec-3] INFO  : clientIdEnd
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=John Doe, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.00, panRate=10.00, gstRate=15.00, GstadvanceRate=12.00, username=johndoe, password=securePassword123)
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : Client ID: 1
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : Provider Name: Zoop
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : New Merchant Block
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : Max MID fetched: 2
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : Set values
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : clientId
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : clientId Not null
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : clientIdEnd
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : After Rate
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : setCredentials
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  : setRole
+2025-04-21 03:11:21 [http-nio-8087-exec-4] INFO  :  END Set values
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=John Doe, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.0, panRate=10.00, gstRate=15.00, GstadvanceRate=12.00, username=johndoe, password=securePassword123)
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : Client ID: 1
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : Provider Name: Zoop
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : New Merchant Block
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : Max MID fetched: 3
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : Set values
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : clientId
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : clientId Not null
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : clientIdEnd
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : After Rate
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : setCredentials
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  : setRole
+2025-04-21 03:11:31 [http-nio-8087-exec-5] INFO  :  END Set values
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=John Doe, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.0, panRate=10.00, gstRate=15.00, GstadvanceRate=null, username=johndoe, password=securePassword123)
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : Client ID: 1
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : Provider Name: Zoop
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : New Merchant Block
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : Max MID fetched: 4
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : Set values
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : clientId
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : clientId Not null
+2025-04-21 03:11:40 [http-nio-8087-exec-8] INFO  : clientIdEnd
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=John Doe, email=john.doe@example.com, phone=9876543210, alterNativePhone=9123456789, businessType=Retail, websiteUrl=https://www.example.com, businessAddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.0, panRate=10.00, gstRate=15.00, GstadvanceRate=0.00, username=johndoe, password=securePassword123)
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : Client ID: 1
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : Provider Name: Zoop
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : New Merchant Block
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : Max MID fetched: 4
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : clientId Not null
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : clientIdEnd
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : After Rate
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : setCredentials
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  : setRole
+2025-04-21 03:12:02 [http-nio-8087-exec-1] INFO  :  END Set values
+2025-04-21 03:12:44 [File Watcher] INFO  : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2025-04-21 03:12:44 [Thread-1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:12:44 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:12:44 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:12:44 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-04-21 03:12:44 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2025-04-21 03:12:45 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:12:45 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:12:45 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:12:46 [restartedMain] INFO  : Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:12:46 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:12:46 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:12:46 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:12:46 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:12:46 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:12:46 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1303 ms
+2025-04-21 03:12:46 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:12:46 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:12:46 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:12:46 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-04-21 03:12:46 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bd43aac
+2025-04-21 03:12:46 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-04-21 03:12:46 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:12:47 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:12:47 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:12:48 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:12:48 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:12:48 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 3.572 seconds (process running for 8254.897)
+2025-04-21 03:12:48 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:13:02 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:13:02 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:13:02 [http-nio-8087-exec-1] INFO  : Completed initialization in 3 ms
+2025-04-21 03:13:02 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=wnp_admin, email=krushna.dakale@abcmapp.dev, phone=, alterNativePhone=, businessType=PvtLtd, websiteUrl=, businessAddress=, country=, state=, city=, pincode=, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.8, panRate=10, gstRate=15, GstadvanceRate=null, username=, password=)
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : Client ID: 1
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : Provider Name: Zoop
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : New Merchant Block
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : Max MID fetched: 5
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : clientId Not null
+2025-04-21 03:13:24 [http-nio-8087-exec-1] INFO  : clientIdEnd
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=wnp_admin, email=krushna.dakale@abcmapp.dev, phone=, alterNativePhone=, businessType=PvtLtd, websiteUrl=, businessAddress=, country=, state=, city=, pincode=, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5.8, panRate=10, gstRate=15, GstadvanceRate=null, username=, password=)
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : Client ID: 1
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : Provider Name: Zoop
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : New Merchant Block
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : Max MID fetched: 5
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : Set values
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : clientId
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : clientId Not null
+2025-04-21 03:13:41 [http-nio-8087-exec-9] INFO  : clientIdEnd
+2025-04-21 03:14:19 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:14:19 [Thread-5] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:14:19 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:14:19 [Thread-5] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:14:19 [Thread-5] INFO  : HikariPool-2 - Shutdown initiated...
+2025-04-21 03:14:19 [Thread-5] INFO  : HikariPool-2 - Shutdown completed.
+2025-04-21 03:14:19 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:14:19 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:14:20 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:14:20 [restartedMain] INFO  : Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:14:21 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:14:21 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:14:21 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:14:21 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:14:21 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:14:21 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1393 ms
+2025-04-21 03:14:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:14:21 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:14:21 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:14:21 [restartedMain] INFO  : HikariPool-3 - Starting...
+2025-04-21 03:14:21 [restartedMain] INFO  : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a6f866b
+2025-04-21 03:14:21 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2025-04-21 03:14:21 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:14:21 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:14:22 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:14:22 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:14:22 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:14:22 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.856 seconds (process running for 8349.018)
+2025-04-21 03:14:22 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:14:53 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:14:53 [Thread-9] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:14:53 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:14:53 [Thread-9] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:14:53 [Thread-9] INFO  : HikariPool-3 - Shutdown initiated...
+2025-04-21 03:14:53 [Thread-9] INFO  : HikariPool-3 - Shutdown completed.
+2025-04-21 03:14:53 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:14:53 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:14:54 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:14:54 [restartedMain] INFO  : Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:14:54 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:14:54 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:14:54 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:14:54 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:14:54 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:14:54 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 383 ms
+2025-04-21 03:14:54 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:14:54 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:14:54 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:14:54 [restartedMain] INFO  : HikariPool-4 - Starting...
+2025-04-21 03:14:54 [restartedMain] INFO  : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7269b126
+2025-04-21 03:14:54 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2025-04-21 03:14:54 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:14:54 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:14:54 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:14:54 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:14:55 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:14:55 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.219 seconds (process running for 8381.396)
+2025-04-21 03:14:55 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:14:58 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:14:58 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:14:58 [http-nio-8087-exec-1] INFO  : Completed initialization in 1 ms
+2025-04-21 03:14:58 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=wnp_admin, email=krushna.dakale@abcmapp.dev, phone=, alterNativePhone=, businessType=, websiteUrl=, businessAddress=, country=, state=, city=, pincode=, providerName=1,Zoop, serviceProviderId=null, aaddharRate=5, panRate=3, gstRate=5.6, GstadvanceRate=null, username=, password=)
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : Client ID: 1
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : Provider Name: Zoop
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : New Merchant Block
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : Max MID fetched: 5
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : Set values
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : clientId
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : clientId Not null
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : clientIdEnd
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : After Rate
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : setCredentials
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  : setRole
+2025-04-21 03:15:16 [http-nio-8087-exec-2] INFO  :  END Set values
+2025-04-21 03:15:38 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:15:39 [http-nio-8087-exec-8] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=true, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=ENABLE, panPro=ENABLE, gstLit=ENABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb), Merchant_Master(id=3, mid=K10003, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$ZkVNGS0/ZB.fbxxi5GiE.uaOAfwfoBe1ZcKVqyVX3c5CePTxnNt8i, createdBy=null, createdAt=2025-04-21T03:11:21.923608, modifiedBy=null, modifiedAt=2025-04-21T03:11:21.893903), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=HZH1O4-MRHX25-CR4LKP-HIY810, appId=363907f211df4ac6bb82933a), Merchant_Master(id=4, mid=K10004, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$fJQ8PTlZueP5SO7wk4akWexxeo1xGcZ3HiWLMWcc3faJ7pJTH8Oy6, createdBy=null, createdAt=2025-04-21T03:11:31.926634, modifiedBy=null, modifiedAt=2025-04-21T03:11:31.922038), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PVQ4YW-HWPEHD-TDOYRX-3NMYEY, appId=ea99d51697ba425e912fe4d9), Merchant_Master(id=5, mid=K10005, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=0.0, credentials=Credentials(username=johndoe, password=$2a$10$gq5brTVthc9DsEAGmR2/nO2hXW5Ro7dq58oaQuRqCqhFIDkZuMCYG, createdBy=null, createdAt=2025-04-21T03:12:02.324817, modifiedBy=null, modifiedAt=2025-04-21T03:12:02.321267), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PMBDE7-NDM4JL-QO9KGL-WA65RI, appId=93f47372534c4eb281d4cab6), Merchant_Master(id=6, mid=K10006, name=wnp_admin, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=, buissnessAaddress=, country=, state=, city=, pincode=, phoneOne=, phoneTwo=, businessType=, AaddharRate=5.0, PanRate=3.0, GstRate=5.6, gstAdvanceRate=0.0, credentials=Credentials(username=, password=$2a$10$KaGPjUL/iLqeZsDawq8mNu.fMKEmBcrGivijLygBTY2H7jXtzu2hy, createdBy=null, createdAt=2025-04-21T03:15:16.258491, modifiedBy=null, modifiedAt=2025-04-21T03:15:16.246012), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ICUGHX-2BK276-VUDQBD-UDLPZC, appId=51deae6fc3174d52a9bb4b0c)]
+2025-04-21 03:15:39 [http-nio-8087-exec-8] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:16:12 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:16:12 [http-nio-8087-exec-6] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=true, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=ENABLE, panPro=ENABLE, gstLit=ENABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb), Merchant_Master(id=3, mid=K10003, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$ZkVNGS0/ZB.fbxxi5GiE.uaOAfwfoBe1ZcKVqyVX3c5CePTxnNt8i, createdBy=null, createdAt=2025-04-21T03:11:21.923608, modifiedBy=null, modifiedAt=2025-04-21T03:11:21.893903), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=HZH1O4-MRHX25-CR4LKP-HIY810, appId=363907f211df4ac6bb82933a), Merchant_Master(id=4, mid=K10004, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$fJQ8PTlZueP5SO7wk4akWexxeo1xGcZ3HiWLMWcc3faJ7pJTH8Oy6, createdBy=null, createdAt=2025-04-21T03:11:31.926634, modifiedBy=null, modifiedAt=2025-04-21T03:11:31.922038), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PVQ4YW-HWPEHD-TDOYRX-3NMYEY, appId=ea99d51697ba425e912fe4d9), Merchant_Master(id=5, mid=K10005, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=0.0, credentials=Credentials(username=johndoe, password=$2a$10$gq5brTVthc9DsEAGmR2/nO2hXW5Ro7dq58oaQuRqCqhFIDkZuMCYG, createdBy=null, createdAt=2025-04-21T03:12:02.324817, modifiedBy=null, modifiedAt=2025-04-21T03:12:02.321267), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PMBDE7-NDM4JL-QO9KGL-WA65RI, appId=93f47372534c4eb281d4cab6), Merchant_Master(id=6, mid=K10006, name=wnp_admin, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=, buissnessAaddress=, country=, state=, city=, pincode=, phoneOne=, phoneTwo=, businessType=, AaddharRate=5.0, PanRate=3.0, GstRate=5.6, gstAdvanceRate=0.0, credentials=Credentials(username=, password=$2a$10$KaGPjUL/iLqeZsDawq8mNu.fMKEmBcrGivijLygBTY2H7jXtzu2hy, createdBy=null, createdAt=2025-04-21T03:15:16.258491, modifiedBy=null, modifiedAt=2025-04-21T03:15:16.246012), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ICUGHX-2BK276-VUDQBD-UDLPZC, appId=51deae6fc3174d52a9bb4b0c)]
+2025-04-21 03:16:12 [http-nio-8087-exec-6] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:18:11 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:18:11 [Thread-13] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:18:11 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:18:11 [Thread-13] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:18:11 [Thread-13] INFO  : HikariPool-4 - Shutdown initiated...
+2025-04-21 03:18:11 [Thread-13] INFO  : HikariPool-4 - Shutdown completed.
+2025-04-21 03:18:12 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:18:12 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:18:12 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:18:12 [restartedMain] INFO  : Finished Spring Data repository scanning in 52 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:18:13 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:18:13 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:18:13 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:18:14 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:18:14 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:18:14 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2059 ms
+2025-04-21 03:18:14 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:18:14 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:18:14 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:18:14 [restartedMain] INFO  : HikariPool-5 - Starting...
+2025-04-21 03:18:14 [restartedMain] INFO  : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11dd344c
+2025-04-21 03:18:14 [restartedMain] INFO  : HikariPool-5 - Start completed.
+2025-04-21 03:18:14 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:18:14 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:18:15 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:18:15 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:18:15 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:18:15 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 3.483 seconds (process running for 8581.783)
+2025-04-21 03:18:15 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:18:18 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:18:18 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:18:18 [http-nio-8087-exec-1] INFO  : Completed initialization in 2 ms
+2025-04-21 03:18:18 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:18:19 [http-nio-8087-exec-6] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=true, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=ENABLE, panPro=ENABLE, gstLit=ENABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb), Merchant_Master(id=3, mid=K10003, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$ZkVNGS0/ZB.fbxxi5GiE.uaOAfwfoBe1ZcKVqyVX3c5CePTxnNt8i, createdBy=null, createdAt=2025-04-21T03:11:21.923608, modifiedBy=null, modifiedAt=2025-04-21T03:11:21.893903), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=HZH1O4-MRHX25-CR4LKP-HIY810, appId=363907f211df4ac6bb82933a), Merchant_Master(id=4, mid=K10004, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$fJQ8PTlZueP5SO7wk4akWexxeo1xGcZ3HiWLMWcc3faJ7pJTH8Oy6, createdBy=null, createdAt=2025-04-21T03:11:31.926634, modifiedBy=null, modifiedAt=2025-04-21T03:11:31.922038), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PVQ4YW-HWPEHD-TDOYRX-3NMYEY, appId=ea99d51697ba425e912fe4d9), Merchant_Master(id=5, mid=K10005, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=0.0, credentials=Credentials(username=johndoe, password=$2a$10$gq5brTVthc9DsEAGmR2/nO2hXW5Ro7dq58oaQuRqCqhFIDkZuMCYG, createdBy=null, createdAt=2025-04-21T03:12:02.324817, modifiedBy=null, modifiedAt=2025-04-21T03:12:02.321267), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PMBDE7-NDM4JL-QO9KGL-WA65RI, appId=93f47372534c4eb281d4cab6), Merchant_Master(id=6, mid=K10006, name=wnp_admin, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=, buissnessAaddress=, country=, state=, city=, pincode=, phoneOne=, phoneTwo=, businessType=, AaddharRate=5.0, PanRate=3.0, GstRate=5.6, gstAdvanceRate=0.0, credentials=Credentials(username=, password=$2a$10$KaGPjUL/iLqeZsDawq8mNu.fMKEmBcrGivijLygBTY2H7jXtzu2hy, createdBy=null, createdAt=2025-04-21T03:15:16.258491, modifiedBy=null, modifiedAt=2025-04-21T03:15:16.246012), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ICUGHX-2BK276-VUDQBD-UDLPZC, appId=51deae6fc3174d52a9bb4b0c)]
+2025-04-21 03:18:19 [http-nio-8087-exec-6] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:19:43 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:19:43 [Thread-17] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:19:43 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:19:43 [Thread-17] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:19:43 [Thread-17] INFO  : HikariPool-5 - Shutdown initiated...
+2025-04-21 03:19:43 [Thread-17] INFO  : HikariPool-5 - Shutdown completed.
+2025-04-21 03:19:43 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:19:43 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:19:44 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:19:44 [restartedMain] INFO  : Finished Spring Data repository scanning in 32 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:19:44 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:19:44 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:19:44 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:19:44 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:19:44 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:19:44 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 858 ms
+2025-04-21 03:19:44 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:19:44 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:19:44 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:19:44 [restartedMain] INFO  : HikariPool-6 - Starting...
+2025-04-21 03:19:44 [restartedMain] INFO  : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57089ae5
+2025-04-21 03:19:44 [restartedMain] INFO  : HikariPool-6 - Start completed.
+2025-04-21 03:19:44 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:19:44 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:19:45 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:19:45 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:19:45 [restartedMain] INFO  : HikariPool-6 - Shutdown initiated...
+2025-04-21 03:19:45 [restartedMain] INFO  : HikariPool-6 - Shutdown completed.
+2025-04-21 03:19:45 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-21 03:19:45 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-21 03:19:58 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:19:58 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:19:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:19:58 [restartedMain] INFO  : Finished Spring Data repository scanning in 26 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:19:58 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:19:58 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:19:58 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:19:59 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:19:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:19:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 480 ms
+2025-04-21 03:19:59 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:19:59 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:19:59 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:19:59 [restartedMain] INFO  : HikariPool-7 - Starting...
+2025-04-21 03:19:59 [restartedMain] INFO  : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2bf3651d
+2025-04-21 03:19:59 [restartedMain] INFO  : HikariPool-7 - Start completed.
+2025-04-21 03:19:59 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:19:59 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:19:59 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:19:59 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:19:59 [restartedMain] INFO  : HikariPool-7 - Shutdown initiated...
+2025-04-21 03:19:59 [restartedMain] INFO  : HikariPool-7 - Shutdown completed.
+2025-04-21 03:19:59 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-21 03:19:59 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-21 03:20:04 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:20:04 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:20:04 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:20:05 [restartedMain] INFO  : Finished Spring Data repository scanning in 44 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:20:05 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:20:05 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:20:05 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:20:05 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:20:05 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:20:05 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 754 ms
+2025-04-21 03:20:05 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:20:05 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:20:05 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:20:05 [restartedMain] INFO  : HikariPool-8 - Starting...
+2025-04-21 03:20:05 [restartedMain] INFO  : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@36dc5d50
+2025-04-21 03:20:05 [restartedMain] INFO  : HikariPool-8 - Start completed.
+2025-04-21 03:20:05 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:20:05 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:20:05 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:20:05 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:20:05 [restartedMain] INFO  : HikariPool-8 - Shutdown initiated...
+2025-04-21 03:20:05 [restartedMain] INFO  : HikariPool-8 - Shutdown completed.
+2025-04-21 03:20:05 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-21 03:20:05 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-21 03:20:15 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:20:15 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:20:15 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:20:15 [restartedMain] INFO  : Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:20:16 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:20:16 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:20:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:20:16 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:20:16 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:20:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 431 ms
+2025-04-21 03:20:16 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:20:16 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:20:16 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:20:16 [restartedMain] INFO  : HikariPool-9 - Starting...
+2025-04-21 03:20:16 [restartedMain] INFO  : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19cb2f13
+2025-04-21 03:20:16 [restartedMain] INFO  : HikariPool-9 - Start completed.
+2025-04-21 03:20:16 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:20:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:20:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:20:16 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:20:16 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:20:16 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.259 seconds (process running for 8703.3)
+2025-04-21 03:20:16 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:20:20 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-04-21 03:20:20 [Thread-21] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:20:20 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:20:20 [Thread-21] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:20:20 [Thread-21] INFO  : HikariPool-9 - Shutdown initiated...
+2025-04-21 03:20:20 [Thread-21] INFO  : HikariPool-9 - Shutdown completed.
+2025-04-21 03:20:20 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:20:20 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:20:20 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:20:20 [restartedMain] INFO  : Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:20:21 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:20:21 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:20:21 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:20:21 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:20:21 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:20:21 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 409 ms
+2025-04-21 03:20:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:20:21 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:20:21 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:20:21 [restartedMain] INFO  : HikariPool-10 - Starting...
+2025-04-21 03:20:21 [restartedMain] INFO  : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@de6ef1c
+2025-04-21 03:20:21 [restartedMain] INFO  : HikariPool-10 - Start completed.
+2025-04-21 03:20:21 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:20:21 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:20:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:20:21 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:20:21 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:20:21 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.248 seconds (process running for 8708.224)
+2025-04-21 03:20:21 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:20:26 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:20:26 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:20:26 [http-nio-8087-exec-1] INFO  : Completed initialization in 2 ms
+2025-04-21 03:20:26 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:20:28 [http-nio-8087-exec-9] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=true, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=ENABLE, panPro=ENABLE, gstLit=ENABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb), Merchant_Master(id=3, mid=K10003, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$ZkVNGS0/ZB.fbxxi5GiE.uaOAfwfoBe1ZcKVqyVX3c5CePTxnNt8i, createdBy=null, createdAt=2025-04-21T03:11:21.923608, modifiedBy=null, modifiedAt=2025-04-21T03:11:21.893903), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=HZH1O4-MRHX25-CR4LKP-HIY810, appId=363907f211df4ac6bb82933a), Merchant_Master(id=4, mid=K10004, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$fJQ8PTlZueP5SO7wk4akWexxeo1xGcZ3HiWLMWcc3faJ7pJTH8Oy6, createdBy=null, createdAt=2025-04-21T03:11:31.926634, modifiedBy=null, modifiedAt=2025-04-21T03:11:31.922038), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PVQ4YW-HWPEHD-TDOYRX-3NMYEY, appId=ea99d51697ba425e912fe4d9), Merchant_Master(id=5, mid=K10005, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=0.0, credentials=Credentials(username=johndoe, password=$2a$10$gq5brTVthc9DsEAGmR2/nO2hXW5Ro7dq58oaQuRqCqhFIDkZuMCYG, createdBy=null, createdAt=2025-04-21T03:12:02.324817, modifiedBy=null, modifiedAt=2025-04-21T03:12:02.321267), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PMBDE7-NDM4JL-QO9KGL-WA65RI, appId=93f47372534c4eb281d4cab6), Merchant_Master(id=6, mid=K10006, name=wnp_admin, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=, buissnessAaddress=, country=, state=, city=, pincode=, phoneOne=, phoneTwo=, businessType=, AaddharRate=5.0, PanRate=3.0, GstRate=5.6, gstAdvanceRate=0.0, credentials=Credentials(username=, password=$2a$10$KaGPjUL/iLqeZsDawq8mNu.fMKEmBcrGivijLygBTY2H7jXtzu2hy, createdBy=null, createdAt=2025-04-21T03:15:16.258491, modifiedBy=null, modifiedAt=2025-04-21T03:15:16.246012), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ICUGHX-2BK276-VUDQBD-UDLPZC, appId=51deae6fc3174d52a9bb4b0c)]
+2025-04-21 03:20:28 [http-nio-8087-exec-9] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:20:32 [http-nio-8087-exec-6] INFO  : success:org.hibernate.query.sqm.internal.QuerySqmImpl@3d1775c3
+2025-04-21 03:20:42 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:20:43 [http-nio-8087-exec-3] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=K10001, name=John Doe, source=null, status=true, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$8.3pCUK2DOt0R0NSZ2EdzOgIMC7INREdbwtAU/jfoyFStiVa/7412, createdBy=null, createdAt=2025-04-20T23:40:46.628066, modifiedBy=null, modifiedAt=2025-04-20T23:40:46.605545), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=ENABLE, gstLit=ENABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=WFITT5-3XF5AA-8BQ58F-P2W18B, appId=082d16f2748947aea658f781), Merchant_Master(id=2, mid=K10002, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$VDJPkaj/aqJWnyEMiM3znOi5jB3reYuEEUVX3FKtLfVprbCuG/9/C, createdBy=null, createdAt=2025-04-20T23:44:01.178972, modifiedBy=null, modifiedAt=2025-04-20T23:44:01.173349), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ATY892-RCSPA9-B475AP-PFDJ5R, appId=ddd8cb0f5e3d4d4cbbd915bb), Merchant_Master(id=3, mid=K10003, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$ZkVNGS0/ZB.fbxxi5GiE.uaOAfwfoBe1ZcKVqyVX3c5CePTxnNt8i, createdBy=null, createdAt=2025-04-21T03:11:21.923608, modifiedBy=null, modifiedAt=2025-04-21T03:11:21.893903), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=HZH1O4-MRHX25-CR4LKP-HIY810, appId=363907f211df4ac6bb82933a), Merchant_Master(id=4, mid=K10004, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=12.0, credentials=Credentials(username=johndoe, password=$2a$10$fJQ8PTlZueP5SO7wk4akWexxeo1xGcZ3HiWLMWcc3faJ7pJTH8Oy6, createdBy=null, createdAt=2025-04-21T03:11:31.926634, modifiedBy=null, modifiedAt=2025-04-21T03:11:31.922038), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PVQ4YW-HWPEHD-TDOYRX-3NMYEY, appId=ea99d51697ba425e912fe4d9), Merchant_Master(id=5, mid=K10005, name=John Doe, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.example.com, buissnessAaddress=123 Main Street, country=India, state=Madhya Pradesh, city=Indore, pincode=452001, phoneOne=9876543210, phoneTwo=9123456789, businessType=Retail, AaddharRate=5.0, PanRate=10.0, GstRate=15.0, gstAdvanceRate=0.0, credentials=Credentials(username=johndoe, password=$2a$10$gq5brTVthc9DsEAGmR2/nO2hXW5Ro7dq58oaQuRqCqhFIDkZuMCYG, createdBy=null, createdAt=2025-04-21T03:12:02.324817, modifiedBy=null, modifiedAt=2025-04-21T03:12:02.321267), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=PMBDE7-NDM4JL-QO9KGL-WA65RI, appId=93f47372534c4eb281d4cab6), Merchant_Master(id=6, mid=K10006, name=wnp_admin, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=, buissnessAaddress=, country=, state=, city=, pincode=, phoneOne=, phoneTwo=, businessType=, AaddharRate=5.0, PanRate=3.0, GstRate=5.6, gstAdvanceRate=0.0, credentials=Credentials(username=, password=$2a$10$KaGPjUL/iLqeZsDawq8mNu.fMKEmBcrGivijLygBTY2H7jXtzu2hy, createdBy=null, createdAt=2025-04-21T03:15:16.258491, modifiedBy=null, modifiedAt=2025-04-21T03:15:16.246012), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=ICUGHX-2BK276-VUDQBD-UDLPZC, appId=51deae6fc3174d52a9bb4b0c)]
+2025-04-21 03:20:43 [http-nio-8087-exec-3] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:21:40 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate= 3.5, panRate=4.5, gstRate=2, GstadvanceRate=null, username=k10001, password=12345)
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : Client ID: 1
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : Provider Name: Zoop
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : New Merchant Block
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : Max MID fetched: null
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : Set values
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : clientId
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : clientId Not null
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : clientIdEnd
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : After Rate
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : setCredentials
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  : setRole
+2025-04-21 03:23:00 [http-nio-8087-exec-8] INFO  :  END Set values
+2025-04-21 03:23:03 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:23:04 [http-nio-8087-exec-1] INFO  : Fetched all merchants: [Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81)]
+2025-04-21 03:23:04 [http-nio-8087-exec-1] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:23:15 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:23:15 [http-nio-8087-exec-4] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9503032405, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=Select Service Provider, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : Client ID: Select Service Provider
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : Provider Name: null
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : Existing Merchant Block
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : Set values
+2025-04-21 03:23:36 [http-nio-8087-exec-2] INFO  : clientId
+2025-04-21 03:23:39 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:23:39 [http-nio-8087-exec-7] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9503032405, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=Select Service Provider, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : Client ID: Select Service Provider
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : Provider Name: null
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : Existing Merchant Block
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:23:51 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=abcm@gmail.com, phone=9503032405, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=Select Service Provider, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : Client ID: Select Service Provider
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : Provider Name: null
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : Existing Merchant Block
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : Set values
+2025-04-21 03:24:39 [http-nio-8087-exec-5] INFO  : clientId
+2025-04-21 03:26:06 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:26:06 [http-nio-8087-exec-9] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=john.doe@example.com, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : Client ID: 1
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : Provider Name: Zoop
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : Existing Merchant Block
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : clientId Not null
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : clientIdEnd
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : After Rate
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : setCredentials
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  : setRole
+2025-04-21 03:26:12 [http-nio-8087-exec-1] INFO  :  END Set values
+2025-04-21 03:26:27 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:26:27 [http-nio-8087-exec-8] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : Client ID: 1
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : Provider Name: Zoop
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : Existing Merchant Block
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : Set values
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : clientId
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : clientId Not null
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : clientIdEnd
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : After Rate
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : setCredentials
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  : setRole
+2025-04-21 03:26:29 [http-nio-8087-exec-7] INFO  :  END Set values
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : Client ID: 1
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : Provider Name: Zoop
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : Existing Merchant Block
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : clientId Not null
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : clientIdEnd
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : After Rate
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : setCredentials
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  : setRole
+2025-04-21 03:29:10 [http-nio-8087-exec-1] INFO  :  END Set values
+2025-04-21 03:30:04 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:30:04 [Thread-34] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:30:04 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:30:04 [Thread-34] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:30:04 [Thread-34] INFO  : HikariPool-10 - Shutdown initiated...
+2025-04-21 03:30:04 [Thread-34] INFO  : HikariPool-10 - Shutdown completed.
+2025-04-21 03:30:05 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:30:05 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:30:06 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:30:06 [restartedMain] INFO  : Finished Spring Data repository scanning in 84 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:30:06 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:30:06 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:30:06 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:30:07 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:30:07 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:30:07 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1821 ms
+2025-04-21 03:30:07 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:30:07 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:30:07 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:30:07 [restartedMain] INFO  : HikariPool-11 - Starting...
+2025-04-21 03:30:07 [restartedMain] INFO  : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ea2245a
+2025-04-21 03:30:07 [restartedMain] INFO  : HikariPool-11 - Start completed.
+2025-04-21 03:30:07 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:30:08 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:30:08 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:30:09 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:30:09 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:30:09 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 4.405 seconds (process running for 9295.771)
+2025-04-21 03:30:09 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Completed initialization in 2 ms
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=krushna.dakale@abcmapp.dev, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Client ID: 1
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Provider Name: Zoop
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Existing Merchant Block
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : Set values
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : clientId
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : clientId Not null
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : clientIdEnd
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : After Rate
+2025-04-21 03:30:13 [http-nio-8087-exec-1] INFO  : setCredentials
+2025-04-21 03:30:14 [http-nio-8087-exec-1] INFO  : setRole
+2025-04-21 03:30:14 [http-nio-8087-exec-1] INFO  :  END Set values
+2025-04-21 03:32:50 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:32:50 [Thread-38] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:32:50 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:32:50 [Thread-38] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:32:50 [Thread-38] INFO  : HikariPool-11 - Shutdown initiated...
+2025-04-21 03:32:50 [Thread-38] INFO  : HikariPool-11 - Shutdown completed.
+2025-04-21 03:32:50 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:32:50 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:32:51 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:32:51 [restartedMain] INFO  : Finished Spring Data repository scanning in 28 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:32:51 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:32:51 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:32:51 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:32:51 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:32:51 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:32:51 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1098 ms
+2025-04-21 03:32:51 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:32:51 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:32:51 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:32:51 [restartedMain] INFO  : HikariPool-12 - Starting...
+2025-04-21 03:32:51 [restartedMain] INFO  : HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b939cd
+2025-04-21 03:32:51 [restartedMain] INFO  : HikariPool-12 - Start completed.
+2025-04-21 03:32:51 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:32:51 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:32:52 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:32:53 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:32:53 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:32:53 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 3.446 seconds (process running for 9459.934)
+2025-04-21 03:32:53 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:33:08 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-21 03:33:08 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-21 03:33:08 [http-nio-8087-exec-1] INFO  : Completed initialization in 3 ms
+2025-04-21 03:33:08 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:33:08 [http-nio-8087-exec-1] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=krushna.dakale@abcmapp.dev, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:23:00.362646), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:33:13 [http-nio-8087-exec-8] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=7, name=AbcmApp, email=john.doe@example.com, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=k10001, password=$2a$10$WVOXofTE7uj4zLjiMzPUn.2jxPrCVkL6Uo3G/tzyr0MfujtNaY4cS)
+2025-04-21 03:33:13 [http-nio-8087-exec-8] INFO  : Client ID: 1
+2025-04-21 03:33:13 [http-nio-8087-exec-8] INFO  : Provider Name: Zoop
+2025-04-21 03:33:13 [http-nio-8087-exec-8] INFO  : Existing Merchant Block
+2025-04-21 03:33:31 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:33:31 [http-nio-8087-exec-2] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=7, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=john.doe@example.com, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbai, country=india, state=Maharashtra, city=Aurangabad, pincode=431134, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=k10001, password=$2a$10$yeldAkFhiuZF6ZFeRzjuueUodqlUHdQTWbEl8liOaG34QZN6wm3le, createdBy=null, createdAt=2025-04-21T03:23:00.376879, modifiedBy=null, modifiedAt=2025-04-21T03:33:13.898726), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=6QVQ2R-Y1DF0E-S8U3TB-R83PM0, appId=73cc593818fe49a5852c3f81))
+2025-04-21 03:33:52 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:34:53 [http-nio-8087-exec-10] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=0, name=AbcmApp, email=abcmapp@gmail.com, phone=9876543210, alterNativePhone=9011851656, businessType=PvtLtd, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbia, country=india, state=Maharashtra, city=Aurangabad, pincode=431001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2, GstadvanceRate=null, username=abcm, password=123456)
+2025-04-21 03:34:53 [http-nio-8087-exec-10] INFO  : Client ID: 1
+2025-04-21 03:34:53 [http-nio-8087-exec-10] INFO  : Provider Name: Zoop
+2025-04-21 03:34:53 [http-nio-8087-exec-10] INFO  : New Merchant Block
+2025-04-21 03:34:53 [http-nio-8087-exec-10] INFO  : Max MID fetched: null
+2025-04-21 03:35:02 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:35:03 [http-nio-8087-exec-9] INFO  : Fetched all merchants: [Merchant_Master(id=12, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=abcmapp@gmail.com, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbia, country=india, state=Maharashtra, city=Aurangabad, pincode=431001, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=abcm, password=$2a$10$eKt9OhoVOuGvD.yxcQ9GQue.oyQeytTVN2sSpsWN/PI3DhzqbSlgW, createdBy=null, createdAt=2025-04-21T03:34:53.488350, modifiedBy=null, modifiedAt=2025-04-21T03:34:53.476999), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=BODZ30-I0Y68X-VEMPJK-S0PRNH, appId=e8279115a49b4d22938ed596)]
+2025-04-21 03:35:03 [http-nio-8087-exec-9] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true)
+2025-04-21 03:35:09 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:35:09 [http-nio-8087-exec-6] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=12, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=abcmapp@gmail.com, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbia, country=india, state=Maharashtra, city=Aurangabad, pincode=431001, phoneOne=9876543210, phoneTwo=9011851656, businessType=PvtLtd, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=abcm, password=$2a$10$eKt9OhoVOuGvD.yxcQ9GQue.oyQeytTVN2sSpsWN/PI3DhzqbSlgW, createdBy=null, createdAt=2025-04-21T03:34:53.488350, modifiedBy=null, modifiedAt=2025-04-21T03:34:53.476999), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=BODZ30-I0Y68X-VEMPJK-S0PRNH, appId=e8279115a49b4d22938ed596))
+2025-04-21 03:35:17 [http-nio-8087-exec-2] INFO  : Onboard Dto Model: MerchantKycOnboardingRequest(id=12, name=AbcmApp, email=abcmapp@gmail.com, phone=9876543210, alterNativePhone=9011851656, businessType=Section8, websiteUrl=https://www.abcmapp.com, businessAddress=Malad Mumbia, country=india, state=Maharashtra, city=Aurangabad, pincode=431001, providerName=1,Zoop, serviceProviderId=null, aaddharRate=3.5, panRate=4.5, gstRate=2.0, GstadvanceRate=null, username=abcm, password=$2a$10$eKt9OhoVOuGvD.yxcQ9GQue.oyQeytTVN2sSpsWN/PI3DhzqbSlgW)
+2025-04-21 03:35:17 [http-nio-8087-exec-2] INFO  : Client ID: 1
+2025-04-21 03:35:17 [http-nio-8087-exec-2] INFO  : Provider Name: Zoop
+2025-04-21 03:35:17 [http-nio-8087-exec-2] INFO  : Existing Merchant Block
+2025-04-21 03:35:20 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:35:20 [http-nio-8087-exec-8] INFO  : Fetched merchant: ApiResponseModel(responseCode=200, message=Data Fetch successfully, data=Merchant_Master(id=12, mid=K10001, name=AbcmApp, source=null, status=false, mode=null, rate=0, email=abcmapp@gmail.com, serviceProviderName=Zoop, websiteUrl=https://www.abcmapp.com, buissnessAaddress=Malad Mumbia, country=india, state=Maharashtra, city=Aurangabad, pincode=431001, phoneOne=9876543210, phoneTwo=9011851656, businessType=Section8, AaddharRate=3.5, PanRate=4.5, GstRate=2.0, gstAdvanceRate=0.0, credentials=Credentials(username=abcm, password=$2a$10$Z13D/ih9c4UwXKRcguJXXOBx/jhSVpo0aNeoI945EWKfyfdG9nX0q, createdBy=null, createdAt=2025-04-21T03:34:53.488350, modifiedBy=null, modifiedAt=2025-04-21T03:35:17.347971), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=null, createdOn=2025-04-20T23:39:08.259075, environment=null, appId=62b166db6e1af8001ede331e, serviceProviderName=ZOOP, apiKey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, apiAadharUrl1=https://live.zoop.one/in/identity/okyc/otp/request, apiAadharUrl2=https://live.zoop.one/in/identity/okyc/otp/verify, apiGstUrl1=https://live.zoop.one/api/v1/in/merchant/gstin/lite, apiGstUrl2=, apiPanUrl1=https://live.zoop.one/api/v1/in/identity/pan/pro, apiPanUrl2=null, udf1=, udf2=, udf3=, udf4=, udf5=, status=true), apiKey=BODZ30-I0Y68X-VEMPJK-S0PRNH, appId=e8279115a49b4d22938ed596))
+2025-04-21 03:35:37 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:35:48 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-21 03:36:51 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:36:51 [Thread-42] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:36:51 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:36:51 [Thread-42] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:36:51 [Thread-42] INFO  : HikariPool-12 - Shutdown initiated...
+2025-04-21 03:36:51 [Thread-42] INFO  : HikariPool-12 - Shutdown completed.
+2025-04-21 03:36:51 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 22.0.1 with PID 13724 (D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui\target\classes started by Pramod in D:\V1-NewKycServicesShyam\ABCM-KYC-shyam\abcm-kyc-service-ui)
+2025-04-21 03:36:51 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-21 03:36:52 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-21 03:36:52 [restartedMain] INFO  : Finished Spring Data repository scanning in 33 ms. Found 6 JPA repository interfaces.
+2025-04-21 03:36:52 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-21 03:36:52 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-21 03:36:52 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-21 03:36:52 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-21 03:36:52 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-21 03:36:52 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 913 ms
+2025-04-21 03:36:52 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-21 03:36:52 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-21 03:36:52 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-21 03:36:52 [restartedMain] INFO  : HikariPool-13 - Starting...
+2025-04-21 03:36:52 [restartedMain] INFO  : HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77ba246f
+2025-04-21 03:36:52 [restartedMain] INFO  : HikariPool-13 - Start completed.
+2025-04-21 03:36:52 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-21 03:36:52 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-21 03:36:53 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:36:53 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-21 03:36:53 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-21 03:36:53 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.237 seconds (process running for 9699.874)
+2025-04-21 03:36:53 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-21 03:37:04 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-21 03:37:04 [Thread-46] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-21 03:37:04 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-21 03:37:04 [Thread-46] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-21 03:37:04 [Thread-46] INFO  : HikariPool-13 - Shutdown initiated...
+2025-04-21 03:37:04 [Thread-46] INFO  : HikariPool-13 - Shutdown completed.

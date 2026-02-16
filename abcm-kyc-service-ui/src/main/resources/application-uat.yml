@@ -1,0 +1,53 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/abcm_kyc_ms_db?createDatabaseIfNotExist=true&useUnicode=yes&characterEncoding=UTF-8
+    username: root
+    password: Abcmapp@123
+    driver-class-name: com.mysql.cj.jdbc.Driver  # Explicitly define the driver class name
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+ContextPath: http://203.192.228.125:1002/view-kyc
+
+server:
+  port: 8087
+
+logging:
+  level:
+    root: INFO
+
+
+apiKey : 9a447a58-2f26-49d5-9421-383ac14b3a24
+salt : 788bcd8b464c024453a1ca4c7bc8260292210ea5
+ablePayUrl : https://pgbiz.ablepay.co.in/v2/paymentrequest
+statusApi: https://pgbiz.ablepay.co.in/v2/paymentstatus 
+returnUrl: http://203.192.228.125:1002/view-kyc/payment-response
+environment: LIVE
+LogFilepath: /home/logs/kyc-panel/view-kyc-log/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info
+  endpoint:
+    health:
+      show-details: always
+prometheus:
+ metrics:
+ export:
+ enabled: true
+
+ 
+ spring.jpa.properties.hibernate.format_sql: true
+ 
+ spring:
+  session:
+    store-type: none   # ✅ Do not persist session (no JDBC, Redis)
+    timeout: 30m       # ✅ Set global session timeout to 30 minutes
+ 
+ 

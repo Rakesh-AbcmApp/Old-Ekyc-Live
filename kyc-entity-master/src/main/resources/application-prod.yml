@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    url: jdbc:mysql://wnpay-prd.cayouse6wadz.ap-south-1.rds.amazonaws.com:3306/abcm_kyc_ms_db?createDatabaseIfNotExist=true&useSSL=true&useUnicode=yes&characterEncoding=UTF-8
+    username: wnpayadmin
+    password: AbcmWnpayRds2022
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    show-sql: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info
+  endpoint:
+    health:
+      show-details: always
+
+prometheus:
+  metrics:
+    export:
+      enabled: true
+
+logFilepath: /home/ekyc-log/kyc-entity-master-log/

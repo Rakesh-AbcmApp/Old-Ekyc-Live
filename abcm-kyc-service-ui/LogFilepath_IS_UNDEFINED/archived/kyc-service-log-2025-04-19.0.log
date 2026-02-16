@@ -1,0 +1,14 @@
+2025-04-19 09:35:10 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=21h7m4s18ms117µs800ns).
+2025-04-19 10:13:34 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=1m53s381ms737µs500ns).
+2025-04-19 11:37:49 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=16m14s673ms527µs701ns).
+2025-04-19 12:33:30 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=7m9s491ms629µs600ns).
+2025-04-19 14:33:50 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=1h56m20s487ms821µs900ns).
+2025-04-19 14:56:25 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=4m34s124ms16µs299ns).
+2025-04-19 15:03:29 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=2m34s389ms257µs500ns).
+2025-04-19 15:40:53 [http-nio-8087-exec-3] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-19 15:40:54 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-19 15:42:45 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-19 20:54:50 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=4h17m49s283ms324µs500ns).
+2025-04-19 21:03:20 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=5m534ms44µs600ns).
+2025-04-19 21:19:54 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=10m3s709ms852µs500ns).
+2025-04-19 21:27:29 [HikariPool-19 housekeeper] WARN  : HikariPool-19 - Thread starvation or clock leap detected (housekeeper delta=2m34s594ms965µs200ns).

@@ -1,0 +1,132 @@
+pipeline {
+    agent any
+
+    tools {
+        jdk 'JDK 17' 
+    }
+    
+    parameters {
+        choice(name: 'ENVIRONMENT', choices: ['uat', 'dev', 'prod'], description: 'Select deployment environment')
+    }
+
+    environment {
+        MAVEN_HOME = tool 'maven'
+        PATH = "${tool 'JDK 17'}/bin:${env.MAVEN_HOME}/bin:${env.PATH}"
+        // dynamic WAR name with timestamp
+        TIMESTAMP = new Date().format("yyyyMMdd-HHmmss")
+        WAR_NAME = "abcm-pan-api.war"
+
+        // Uncomment and set paths when ready to deploy
+        TOMCAT_BASE = "/opt/apache-tomcat-10.1.28_ablepay"
+        LOCAL_BACKUP_PATH = "${env.TOMCAT_BASE}/warbackup/KycRouting.war"
+        LOCAL_DEPLOY_PATH = "${env.TOMCAT_BASE}/webapps"
+    }
+
+    stages {
+     stage('Ensure view-kyc Changed') {
+      steps {
+        script {
+          boolean changed = false
+          for (changeLogSet in currentBuild.changeSets) {
+            for (entry in changeLogSet.items) {
+              for (file in entry.affectedFiles) {
+                if (file.path.startsWith('view-kyc/')) {
+                  changed = true
+                  break
+                }
+              }
+              if (changed) break
+            }
+            if (changed) break
+          }
+          if (!changed) {
+            echo "No changes under abcm-pan-api/; skipping pipeline."
+            currentBuild.result = 'NOT_BUILT'
+            error('Abort: nothing to do')
+          }
+        }
+      }
+    }
+        stage('Checkout Code') {
+            steps {
+                   cleanWs()
+                   git credentialsId: 'krushna-ablepay',
+                    url: 'https://github.com/AbcmAppAdmin/kyc.git',
+                    branch: 'dev-branch',
+                    changelog: true,
+                    poll: true
+            }
+        }
+
+        stage('Build WAR') {
+
+            steps {
+                dir('KycRouting') {
+                    sh 'mvn clean install -DskipTests'
+                }
+            }
+        }
+
+       
+
+        stage('Archive WAR') {
+
+            steps {
+                archiveArtifacts artifacts: "abcm-pan-api/target/${WAR_NAME}", onlyIfSuccessful: true
+            }
+        }
+	
+        stage('Backup & Deploy WAR') {
+            steps {
+                echo 'Deployment step skipped - paths not configured yet.'
+                // Uncomment below lines when deployment paths are ready
+
+                sh '''
+                    echo "Preparing deployment directories..."
+                    mkdir -p "${LOCAL_BACKUP_PATH}"
+                    mkdir -p "${LOCAL_DEPLOY_PATH}"
+
+                    WAR_SRC="abcm-pan-api/target/${WAR_NAME}"
+
+                    if [ -f "${LOCAL_DEPLOY_PATH}/abcm-pan-api.war" ]; then
+                        TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+                        echo "Backing up existing WAR..."
+                        mv "${LOCAL_DEPLOY_PATH}/view-kyc.war" "${LOCAL_BACKUP_PATH}/view-kyc.war"
+                    fi
+
+                    echo "Deploying new WAR..."
+                    cp "$WAR_SRC" "${LOCAL_DEPLOY_PATH}/abcm-pan-api.war"
+                '''
+            }
+        } 
+
+    }
+
+    post {
+        always {
+          script {
+            def result = currentBuild.currentResult  // "SUCCESS", "FAILURE" or "NOT_BUILT"
+            if (result != 'NOT_BUILT') {
+              // choose wording based on result
+              def verb = (result == 'SUCCESS') ? 'succeeded' : 'failed'
+              def subject = "KycRouting Build ${result}"
+              def body    = "Build ${env.BUILD_NUMBER} on ${params.ENVIRONMENT} ${verb}. Check Jenkins."
+
+              sh """
+                curl -X POST https://www.waitnpay.com/AbcmNotification-api/attachment/sendEmail \\
+                  -F username='AKIAUY2SXE5B3L34ZDXG' \\
+                  -F password='BI2KnnuVdPTNdQccMRBaFeJXatzlIdYVBlJ4phksZKR7' \\
+                  -F from='noreply@waitnpay.com' \\
+                  -F to='krushna.dakale@abcmapp.dev' \\
+                  -F subject='${subject}' \\
+                  -F body='${body}' \\
+                  -F mailHost='email-smtp.ap-south-1.amazonaws.com' \\
+                  -F mailPort='587'
+              """
+            } else {
+              echo "Build was SKIPPED (NOT_BUILT); no notification sent."
+            }
+          }
+        }
+      }
+}

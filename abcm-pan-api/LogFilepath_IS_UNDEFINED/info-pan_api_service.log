@@ -1,0 +1,497 @@
+2025-06-12 16:33:34 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:33:34 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:33:34 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 16:33:34 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 16:33:35 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:33:35 [restartedMain] INFO  : Finished Spring Data repository scanning in 234 ms. Found 1 JPA repository interface.
+2025-06-12 16:33:37 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:33:37 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:33:37 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:33:37 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:33:37 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2769 ms
+2025-06-12 16:33:37 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:33:37 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-06-12 16:33:37 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:33:38 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:33:38 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-06-12 16:33:38 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42eabf96
+2025-06-12 16:33:38 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-06-12 16:33:38 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:33:41 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:33:41 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:33:42 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12 16:33:43 [restartedMain] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:33:43 [restartedMain] INFO  : 📥 BEFORE Method | AppConfig.restTemplate | Request: []
+2025-06-12 16:33:43 [restartedMain] INFO  : ✅ AFTER Method  | AppConfig.restTemplate | ExecutionTime: 17ms | Response: org.springframework.web.client.RestTemplate@2e26a775
+2025-06-12 16:33:44 [restartedMain] INFO  : Tomcat started on port 8044 (http) with context path '/'
+2025-06-12 16:33:44 [restartedMain] INFO  : Started AbcmPanApiApplication in 10.491 seconds (process running for 11.887)
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : Completed initialization in 2 ms
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanKycApiController.verifyPan | Request: [panVerifyRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanVerifyServiceImpl.processPanVerification | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | ValidatePanRequest.validatePanRequest | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | GlobalExceptionHaldeling.handleCustomException | Request: [ex=com.abcm.pan_service.exception.CustomException: Unknown error, request=ServletWebRequest: uri=/api/v1/pan/verify-request;client=0:0:0:0:0:0:0:1]
+2025-06-12 16:34:08 [http-nio-8044-exec-2] INFO  : ✅ AFTER Method  | GlobalExceptionHaldeling.handleCustomException | ExecutionTime: 3ms | Response: <400 BAD_REQUEST Bad Request,com.abcm.pan_service.exception.ErrorResponse@5e1f9ea0,[]>
+2025-06-12 16:35:19 [File Watcher] INFO  : Restarting due to 32 class path changes (0 additions, 0 deletions, 32 modifications)
+2025-06-12 16:35:19 [Thread-1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12 16:35:20 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-12 16:35:20 [Thread-1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:20 [Thread-1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-06-12 16:35:20 [Thread-1] INFO  : HikariPool-1 - Shutdown completed.
+2025-06-12 16:35:20 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:35:20 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:35:20 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:35:20 [restartedMain] INFO  : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:35:20 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:35:20 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:35:20 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:35:20 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:35:20 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 575 ms
+2025-06-12 16:35:21 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:35:21 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:35:21 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:35:21 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-06-12 16:35:21 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@791c59cb
+2025-06-12 16:35:21 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-06-12 16:35:21 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:35:21 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:35:21 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:21 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:21 [restartedMain] INFO  : HikariPool-2 - Shutdown initiated...
+2025-06-12 16:35:21 [restartedMain] INFO  : HikariPool-2 - Shutdown completed.
+2025-06-12 16:35:21 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:35:21 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:35:36 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:35:36 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:35:37 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:35:37 [restartedMain] INFO  : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:35:37 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:35:37 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:35:37 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:35:37 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:35:37 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 439 ms
+2025-06-12 16:35:37 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:35:37 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:35:37 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:35:37 [restartedMain] INFO  : HikariPool-3 - Starting...
+2025-06-12 16:35:37 [restartedMain] INFO  : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@393577d
+2025-06-12 16:35:37 [restartedMain] INFO  : HikariPool-3 - Start completed.
+2025-06-12 16:35:37 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:35:37 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:35:38 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:38 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:38 [restartedMain] INFO  : HikariPool-3 - Shutdown initiated...
+2025-06-12 16:35:38 [restartedMain] INFO  : HikariPool-3 - Shutdown completed.
+2025-06-12 16:35:38 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:35:38 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:35:40 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:35:40 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:35:40 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:35:40 [restartedMain] INFO  : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:35:41 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:35:41 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:35:41 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:35:41 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:35:41 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 438 ms
+2025-06-12 16:35:41 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:35:41 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:35:41 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:35:41 [restartedMain] INFO  : HikariPool-4 - Starting...
+2025-06-12 16:35:41 [restartedMain] INFO  : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@298b8f1f
+2025-06-12 16:35:41 [restartedMain] INFO  : HikariPool-4 - Start completed.
+2025-06-12 16:35:41 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:35:41 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:35:42 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:42 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:35:42 [restartedMain] INFO  : HikariPool-4 - Shutdown initiated...
+2025-06-12 16:35:42 [restartedMain] INFO  : HikariPool-4 - Shutdown completed.
+2025-06-12 16:35:42 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:35:42 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:37:35 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:37:35 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:37:35 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:37:35 [restartedMain] INFO  : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:37:35 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:37:35 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:37:35 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:37:35 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:37:35 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 451 ms
+2025-06-12 16:37:35 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:37:35 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:37:35 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:37:35 [restartedMain] INFO  : HikariPool-6 - Starting...
+2025-06-12 16:37:35 [restartedMain] INFO  : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c860d70
+2025-06-12 16:37:35 [restartedMain] INFO  : HikariPool-6 - Start completed.
+2025-06-12 16:37:35 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:37:35 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:37:36 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:37:36 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:37:36 [restartedMain] INFO  : HikariPool-6 - Shutdown initiated...
+2025-06-12 16:37:36 [restartedMain] INFO  : HikariPool-6 - Shutdown completed.
+2025-06-12 16:37:36 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:37:36 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:37:54 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:37:54 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:37:54 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:37:54 [restartedMain] INFO  : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:37:55 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:37:55 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:37:55 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:37:55 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:37:55 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 402 ms
+2025-06-12 16:37:55 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:37:55 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:37:55 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:37:55 [restartedMain] INFO  : HikariPool-7 - Starting...
+2025-06-12 16:37:55 [restartedMain] INFO  : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@635bfd5
+2025-06-12 16:37:55 [restartedMain] INFO  : HikariPool-7 - Start completed.
+2025-06-12 16:37:55 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:37:55 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:37:55 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:37:55 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:37:55 [restartedMain] INFO  : HikariPool-7 - Shutdown initiated...
+2025-06-12 16:37:55 [restartedMain] INFO  : HikariPool-7 - Shutdown completed.
+2025-06-12 16:37:55 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:37:55 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:38:12 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:38:12 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:38:12 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:38:12 [restartedMain] INFO  : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:38:12 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:38:12 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:38:12 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:38:12 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:38:12 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 734 ms
+2025-06-12 16:38:12 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:38:12 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:38:13 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:38:13 [restartedMain] INFO  : HikariPool-8 - Starting...
+2025-06-12 16:38:13 [restartedMain] INFO  : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c383305
+2025-06-12 16:38:13 [restartedMain] INFO  : HikariPool-8 - Start completed.
+2025-06-12 16:38:13 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:38:13 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:38:13 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:38:13 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:38:13 [restartedMain] INFO  : HikariPool-8 - Shutdown initiated...
+2025-06-12 16:38:13 [restartedMain] INFO  : HikariPool-8 - Shutdown completed.
+2025-06-12 16:38:13 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:38:13 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:38:16 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 13360 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:38:16 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:38:16 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:38:16 [restartedMain] INFO  : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-06-12 16:38:16 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:38:16 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:38:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:38:16 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:38:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 460 ms
+2025-06-12 16:38:17 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:38:17 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:38:17 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:38:17 [restartedMain] INFO  : HikariPool-9 - Starting...
+2025-06-12 16:38:17 [restartedMain] INFO  : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65aaf531
+2025-06-12 16:38:17 [restartedMain] INFO  : HikariPool-9 - Start completed.
+2025-06-12 16:38:17 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:38:17 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:38:17 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:38:17 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:38:17 [restartedMain] INFO  : HikariPool-9 - Shutdown initiated...
+2025-06-12 16:38:17 [restartedMain] INFO  : HikariPool-9 - Shutdown completed.
+2025-06-12 16:38:17 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-06-12 16:38:17 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-06-12 16:39:57 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 15920 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:39:57 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:39:58 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 16:39:58 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 16:39:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:39:58 [restartedMain] INFO  : Finished Spring Data repository scanning in 139 ms. Found 1 JPA repository interface.
+2025-06-12 16:39:59 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:39:59 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:39:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:39:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:39:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1809 ms
+2025-06-12 16:40:00 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:40:00 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-06-12 16:40:00 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:40:00 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:40:00 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-06-12 16:40:00 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5063051f
+2025-06-12 16:40:00 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-06-12 16:40:00 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:40:02 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:40:02 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:40:03 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12 16:40:04 [restartedMain] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:40:04 [restartedMain] INFO  : 📥 BEFORE Method | AppConfig.restTemplate | Request: []
+2025-06-12 16:40:04 [restartedMain] INFO  : ✅ AFTER Method  | AppConfig.restTemplate | ExecutionTime: 9ms | Response: org.springframework.web.client.RestTemplate@417eb5f0
+2025-06-12 16:40:05 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-12 16:40:05 [restartedMain] INFO  : Tomcat started on port 8044 (http) with context path '/'
+2025-06-12 16:40:05 [restartedMain] INFO  : Started AbcmPanApiApplication in 7.962 seconds (process running for 9.008)
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : Completed initialization in 2 ms
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : 📥 BEFORE Method | PanKycApiController.verifyPan | Request: [panVerifyRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : 📥 BEFORE Method | PanVerifyServiceImpl.processPanVerification | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : 📥 BEFORE Method | ValidatePanRequest.validatePanRequest | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : 📥 BEFORE Method | GlobalExceptionHaldeling.handleCustomException | Request: [ex=com.abcm.pan_service.exception.CustomException: Invalid format for PAN number., request=ServletWebRequest: uri=/api/v1/pan/verify-request;client=0:0:0:0:0:0:0:1]
+2025-06-12 16:40:19 [http-nio-8044-exec-1] INFO  : ✅ AFTER Method  | GlobalExceptionHaldeling.handleCustomException | ExecutionTime: 2ms | Response: <400 BAD_REQUEST Bad Request,com.abcm.pan_service.exception.ErrorResponse@642fbbaa,[]>
+2025-06-12 16:41:13 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-06-12 16:41:13 [Thread-5] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12 16:41:14 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-12 16:41:14 [Thread-5] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:41:14 [Thread-5] INFO  : HikariPool-1 - Shutdown initiated...
+2025-06-12 16:41:14 [Thread-5] INFO  : HikariPool-1 - Shutdown completed.
+2025-06-12 16:41:14 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 15920 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:41:14 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:41:14 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:41:14 [restartedMain] INFO  : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interface.
+2025-06-12 16:41:14 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:41:14 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:41:14 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:41:14 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:41:14 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 443 ms
+2025-06-12 16:41:14 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:41:14 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:41:14 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:41:14 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-06-12 16:41:14 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@477ed57d
+2025-06-12 16:41:14 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-06-12 16:41:14 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:41:15 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:41:15 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:41:15 [restartedMain] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:41:15 [restartedMain] INFO  : 📥 BEFORE Method | AppConfig.restTemplate | Request: []
+2025-06-12 16:41:15 [restartedMain] INFO  : ✅ AFTER Method  | AppConfig.restTemplate | ExecutionTime: 0ms | Response: org.springframework.web.client.RestTemplate@6801e8ef
+2025-06-12 16:41:15 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-12 16:41:15 [restartedMain] INFO  : Tomcat started on port 8044 (http) with context path '/'
+2025-06-12 16:41:15 [restartedMain] INFO  : Started AbcmPanApiApplication in 1.829 seconds (process running for 79.491)
+2025-06-12 16:41:15 [restartedMain] INFO  : Condition evaluation unchanged
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : Completed initialization in 2 ms
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanKycApiController.verifyPan | Request: [panVerifyRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanVerifyServiceImpl.processPanVerification | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | ValidatePanRequest.validatePanRequest | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : ✅ AFTER Method  | ValidatePanRequest.validatePanRequest | ExecutionTime: 0ms | Response: null
+2025-06-12 16:41:25 [http-nio-8044-exec-2] INFO  : Fetching Merchant Details for MID: K10001
+2025-06-12 16:41:26 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:41:26 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | GlobalExceptionHaldeling.handleGlobalException | Request: [ex=org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:8089, request=ServletWebRequest: uri=/api/v1/pan/verify-request;client=0:0:0:0:0:0:0:1]
+2025-06-12 16:41:26 [http-nio-8044-exec-2] INFO  : ✅ AFTER Method  | GlobalExceptionHaldeling.handleGlobalException | ExecutionTime: 1ms | Response: <400 BAD_REQUEST Bad Request,com.abcm.pan_service.exception.ErrorResponse@1e5dd130,[]>
+2025-06-12 16:41:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : Application shutdown requested.
+2025-06-12 16:41:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12 16:41:48 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-12 16:41:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:41:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-2 - Shutdown initiated...
+2025-06-12 16:41:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-2 - Shutdown completed.
+2025-06-12 16:42:40 [restartedMain] INFO  : Starting AbcmPanApiApplication using Java 17.0.1 with PID 19620 (C:\KycServicerABcm\KycAllUpdated\abcm-pan-api\target\classes started by techa in C:\KycServicerABcm\KycAllUpdated\abcm-pan-api)
+2025-06-12 16:42:40 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-06-12 16:42:40 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-06-12 16:42:40 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-06-12 16:42:40 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-06-12 16:42:41 [restartedMain] INFO  : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2025-06-12 16:42:42 [restartedMain] INFO  : Tomcat initialized with port 8044 (http)
+2025-06-12 16:42:42 [restartedMain] INFO  : Starting service [Tomcat]
+2025-06-12 16:42:42 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-06-12 16:42:42 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-06-12 16:42:42 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1933 ms
+2025-06-12 16:42:42 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-06-12 16:42:42 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-06-12 16:42:42 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-06-12 16:42:42 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-06-12 16:42:42 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-06-12 16:42:43 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43c292b3
+2025-06-12 16:42:43 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-06-12 16:42:43 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-06-12 16:42:44 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-06-12 16:42:45 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:42:46 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-06-12 16:42:46 [restartedMain] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:42:46 [restartedMain] INFO  : 📥 BEFORE Method | AppConfig.restTemplate | Request: []
+2025-06-12 16:42:46 [restartedMain] INFO  : ✅ AFTER Method  | AppConfig.restTemplate | ExecutionTime: 15ms | Response: org.springframework.web.client.RestTemplate@5bf77d59
+2025-06-12 16:42:47 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-06-12 16:42:47 [restartedMain] INFO  : Tomcat started on port 8044 (http) with context path '/'
+2025-06-12 16:42:47 [restartedMain] INFO  : Started AbcmPanApiApplication in 8.244 seconds (process running for 9.276)
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : Completed initialization in 1 ms
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanKycApiController.verifyPan | Request: [panVerifyRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | PanVerifyServiceImpl.processPanVerification | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | ValidatePanRequest.validatePanRequest | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : ✅ AFTER Method  | ValidatePanRequest.validatePanRequest | ExecutionTime: 1ms | Response: null
+2025-06-12 16:43:03 [http-nio-8044-exec-2] INFO  : Fetching Merchant Details for MID: K10001
+2025-06-12 16:43:04 [http-nio-8044-exec-2] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:43:04 [http-nio-8044-exec-2] INFO  : 📥 BEFORE Method | GlobalExceptionHaldeling.handleGlobalException | Request: [ex=org.springframework.web.reactive.function.client.WebClientRequestException: Connection refused: no further information: localhost/127.0.0.1:8089, request=ServletWebRequest: uri=/api/v1/pan/verify-request;client=0:0:0:0:0:0:0:1]
+2025-06-12 16:43:04 [http-nio-8044-exec-2] INFO  : ✅ AFTER Method  | GlobalExceptionHaldeling.handleGlobalException | ExecutionTime: 4ms | Response: <400 BAD_REQUEST Bad Request,com.abcm.pan_service.exception.ErrorResponse@5bde7e4a,[]>
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanKycApiController.verifyPan | Request: [panVerifyRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanVerifyServiceImpl.processPanVerification | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ValidatePanRequest.validatePanRequest | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ValidatePanRequest.validatePanRequest | ExecutionTime: 0ms | Response: null
+2025-06-12 16:44:29 [http-nio-8044-exec-4] INFO  : Fetching Merchant Details for MID: K10001
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Successfully fetched Merchant Details for MID: K10001
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : The merchant Active status is true
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ValidatePanRequest.checkBalance | Request: [merchantId=K10001]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Merchant Balance check Initial Level{}K10001
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanVerificationRepository.findByMerchantId | Request: [merchantId=K10001]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanVerificationRepository.findByMerchantId | ExecutionTime: 161ms | Response: Optional[Wallet(id=2, merchantId=K10001, balance=2400, alertBalance=0, txnDate=2025-05-13T14:57:32.130449, transactions=[TransactionHistory(id=1, txnId=OWBHQR16AB9128256, mode=Bharat QR, initiateDate=2025-05-05T16:24:05.345136, paymentDate=2025-05-05T16:24:10, request={"city": "Mumbai", "hash": "62D4FE03C82CCAAA87EA9E449D1F916B0C392AF08787F7288E902821BA8D4F15D8969BC032DB048F4D590AA4746C10E52C27BF1C0007A77940B2F6D607D0BCE6", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250505162405343", "zip_code": "400064", "return_url": "http://203.192.228.125:1002/KycPannel/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250505162405343", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "455002B2331B5F93635899B74CC16B4CC6C6BAB77EF7A0C38D32FA7CCF2CF000D1F6FAB31702B6FDDDD7ADA903AA52F3C4390179FF4FD8E55590A59D0FF3A8C6", "transaction_id": "OWBHQR16AB9128256", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-05 16:24:10", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250505162405343, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=3, txnId=OWBHQR384AE01D4C0, mode=Bharat QR, initiateDate=2025-05-07T10:53:48.701656, paymentDate=2025-05-07T10:53:58, request={"city": "Mumbai", "hash": "AD3A98C58CA8BFD92461D84B71198EF6034270F377E18B1588358DCF811193A475C3F67D0551EA87C771694B3506A9886C32C1049C09404FF31EC005BE599F39", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507105348698", "zip_code": "400064", "return_url": "http://203.192.228.125:1002/KycPannel/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507105348698", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "ED96AAF4CF4FDBD03134935A888D37B6F608E141F34A756B221DF6428898A7719CFE2E8748F1798821168A48DE32D0B41D0C744AEA20C915F085812F2705A732", "transaction_id": "OWBHQR384AE01D4C0", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-07 10:53:58", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250507105348698, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=4, txnId=OWBHQRE89734082D4, mode=Bharat QR, initiateDate=2025-05-07T11:47:22.224090, paymentDate=2025-05-07T11:47:27, request={"city": "Mumbai", "hash": "7D4EA3DDD67E961F574A3125F6AB2EA03406E3E82B8C9BD4435437F62879B87C1DEF81C4E551BA2FB039CDC1FD42C06508779FC48A51BF6D68EB23ED85FC9D1C", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507114722223", "zip_code": "400064", "return_url": "http://203.192.228.125:1002/KycPannel/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507114722223", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "64A408ACACF00DD4204831B195D7DE3262A9AE3AB6B06D4F7D68F37007CD00DDE2BAB158F419ECEFED4894BE1CE0AABB7C501F0882571B97D3CB81229533F82F", "transaction_id": "OWBHQRE89734082D4", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-07 11:47:27", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250507114722223, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=5, txnId=OWBHQRA450D8425EB, mode=Bharat QR, initiateDate=2025-05-07T11:52:11.595295, paymentDate=2025-05-07T11:52:19, request={"city": "Mumbai", "hash": "57E17371F42AED9035010BB5461785BFC4091E1FFB302F6D7B4B27BC8BD1090D0F306A7704768034395BA0C9C3AEE64B70B0AB020610C022FFF5532577A09FD7", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507115211594", "zip_code": "400064", "return_url": "http://203.192.228.125:1002/KycPannel/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507115211594", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "84AFE67D09A14165E2E1513721C894D32059B99AD8FA72C19EA7C0A475CBCA4CB70A43B79A182926FBFF64903DF2EB076791D4EF845C7C47892AD497C55072B2", "transaction_id": "OWBHQRA450D8425EB", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-07 11:52:19", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250507115211594, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=6, txnId=OWBHQR90B49DD7079, mode=Bharat QR, initiateDate=2025-05-07T11:53:19.560601, paymentDate=2025-05-07T11:53:24, request={"city": "Mumbai", "hash": "4A75BF02E58633D84ADEF65AAA723EEFCB28176F388FCA7B4E7BB7DE11CFEDFA9E82D88AD0E135DAF78D19ACC2B28BF91C5A57B0F0923DE648103E93E1A3979A", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507115319560", "zip_code": "400064", "return_url": "http://203.192.228.125:1002/KycPannel/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250507115319560", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "73F6E591725CC8029ED3A496E337F370C4F93A0066C82BC54B2BEDA0762315DDD59413EC42CBAD75DB2E5392B6BE9BEEC16706FC3C0B3ECA8759BA601327D7A7", "transaction_id": "OWBHQR90B49DD7079", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-07 11:53:24", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250507115319560, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=9, txnId=OWBHQR87287DB3CB4, mode=Bharat QR, initiateDate=2025-05-13T14:56:22.496976, paymentDate=2025-05-13T20:26:36, request={"city": "Mumbai", "hash": "E845588531F326CBF497706876100CC3AED0AD45F813C060FA53563F33218DF1BE950660B9C7866E7D17AFB08FC2D54B8A0B36862CD9DBDD9863205F4EF7CF14", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250513145622491", "zip_code": "400064", "return_url": "https://ekyc.ablepay.in/view-kyc/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250513145622491", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "050F65BFCCAC63570830EA30D9CFD439F7AE41F734F8E153ECC322E6522731CFDD11E0BF2FBF3697D6D036F1043FF7F41AB840DD71B13A2874622EAF58426606", "transaction_id": "OWBHQR87287DB3CB4", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-13 20:26:36", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250513145622491, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest), TransactionHistory(id=10, txnId=OWBHQRCE02184BAC9, mode=Bharat QR, initiateDate=2025-05-13T14:57:16.410704, paymentDate=2025-05-13T20:27:21, request={"city": "Mumbai", "hash": "329298C32815B80A4A8B71E9C3530B701720153E62CFED3DA3C88EDB77922D3BC42D786D7340A5AF92F8FE70E6E9DBC3A8320001463ADA0B32573821EFE95487", "mode": "LIVE", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2", "api_key": "9a447a58-2f26-49d5-9421-383ac14b3a24", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250513145716409", "zip_code": "400064", "return_url": "https://ekyc.ablepay.in/view-kyc/payment-response", "description": "KYC Add Balance", "address_line_1": "", "address_line_2": ""}, response={"city": "Mumbai", "name": "AbcmTest", "udf1": "K10001", "email": "krushna.dakale@abcmapp.dev", "phone": "9011856156", "state": "Maharashtra", "amount": "2.00", "country": "IND", "currency": "INR", "order_id": "ABCMKYC-20250513145716409", "zip_code": "400064", "valid_hash": "Yes", "description": "KYC Add Balance", "payment_mode": "Bharat QR", "response_code": "0", "calculatedHash": "0D936B30F071F850493454DD717F1B05CC89AFE33135FB88BEAEFEC733C79C5BE3DE1246F1C32368F94EB0793104E65EF492C0F6005F6829848D339A89C58585", "transaction_id": "OWBHQRCE02184BAC9", "payment_channel": "Bharat QR", "payment_datetime": "2025-05-13 20:27:21", "response_message": "Transaction successful"}, amount=200, txnStatus=Transaction successful, orderId=ABCMKYC-20250513145716409, payUrl=https://pgbiz.ablepay.co.in/v2/paymentrequest)], validity=null)]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ValidatePanRequest.checkBalance | ExecutionTime: 190ms | Response: null
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ValidatePanRequest.validateApiCredentials | Request: [merchant=ProductDetailsDto(id=1, merchantId=K10001, merchantName=AbcmTest, appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322, isActive=true, PAN=ENABLE, productId=2, productName=PAN, providerId=1, PanUrl=https://live.zoop.one/api/v1/in/identity/pan/pro, providerName=ZOOP, providerAppId=62b166db6e1af8001ede331e, providerAppkey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, routeId=3, productRate=459), appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Merchant validateApiCredentialscheck Initial Level{}K10001
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Merchant status and service eligibility validated for Merchant ID: K10001
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ValidatePanRequest.validateApiCredentials | ExecutionTime: 1ms | Response: null
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanRequestDispatcher.PanProviderRequestBody | Request: [providerName=ZOOP, request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ZoopProvider.buildSendOtpRequestBody | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y)]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ZoopProvider.buildSendOtpRequestBody | ExecutionTime: 2ms | Response: {data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanRequestDispatcher.PanProviderRequestBody | ExecutionTime: 2ms | Response: {data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | AsyncPanRequestSaveService.savePanAsync | Request: [request=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), panProviderRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, providerName=ZOOP, productName=PAN, MerchantName=AbcmTest]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Saving PAN data asynchronously in thread: http-nio-8044-exec-4
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | CrudRepository.save | Request: [entity=KycData(id=null, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=null, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=null, otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=null, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=null, responseCode=null, billable=null, ResponseResult=null, source=null, status=null, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse=null, productRate=null, verificationId=null, customerName=null, legalName=null)]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | CrudRepository.save | ExecutionTime: 57ms | Response: KycData(id=1, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=null, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=null, otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=null, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=null, responseCode=null, billable=null, ResponseResult=null, source=null, status=null, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse=null, productRate=null, verificationId=null, customerName=null, legalName=null)
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | AsyncPanRequestSaveService.savePanAsync | ExecutionTime: 71ms | Response: KycData(id=1, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=null, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=null, otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=null, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=null, responseCode=null, billable=null, ResponseResult=null, source=null, status=null, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse=null, productRate=null, verificationId=null, customerName=null, legalName=null)
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ServiceProviderApiCall.providerApiCall | Request: [requestBody={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, productDetailsDto=ProductDetailsDto(id=1, merchantId=K10001, merchantName=AbcmTest, appId=6dd275b6809740028a31a458, apiKey=2SOMEO-YDUDNR-7AAMKS-L0L322, isActive=true, PAN=ENABLE, productId=2, productName=PAN, providerId=1, PanUrl=https://live.zoop.one/api/v1/in/identity/pan/pro, providerName=ZOOP, providerAppId=62b166db6e1af8001ede331e, providerAppkey=EA2QQ9F-Q054TBD-J4VWS2A-ZVKWJRB, routeId=3, productRate=459)]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Calling Provider URL: {}https://live.zoop.one/api/v1/in/identity/pan/pro
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Setting headers for provider: ZOOP
+2025-06-12 16:44:30 [reactor-http-nio-4] INFO  : Response status code: 400
+2025-06-12 16:44:30 [reactor-http-nio-4] INFO  : Response status code: {"request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a","task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"response_code":"106","response_message":"Invalid ID Number or Combination of Inputs","metadata":{"billable":"N","reason_message":"Invalid format for PAN number"},"result":null,"request_timestamp":"2025-06-12T11:14:31.139Z","response_timestamp":"2025-06-12T11:14:31.142Z"}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ServiceProviderApiCall.providerApiCall | ExecutionTime: 524ms | Response: {"request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a","task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"response_code":"106","response_message":"Invalid ID Number or Combination of Inputs","metadata":{"billable":"N","reason_message":"Invalid format for PAN number"},"result":null,"request_timestamp":"2025-06-12T11:14:31.139Z","response_timestamp":"2025-06-12T11:14:31.142Z"}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : Pan Respopnse{"request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a","task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"response_code":"106","response_message":"Invalid ID Number or Combination of Inputs","metadata":{"billable":"N","reason_message":"Invalid format for PAN number"},"result":null,"request_timestamp":"2025-06-12T11:14:31.139Z","response_timestamp":"2025-06-12T11:14:31.142Z"}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ResponseDispatcher.getResponse | Request: [providerName=ZOOP, input={"result":null,"response_timestamp":"2025-06-12T11:14:31.142Z","response_code":"106","metadata":{"reason_message":"Invalid format for PAN number","billable":"N"},"response_message":"Invalid ID Number or Combination of Inputs","request_timestamp":"2025-06-12T11:14:31.139Z","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a"}, trackId=KYC20250612164430335, merchanId=K10001, productRate=459]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | ZoopResponseHandler.PanVerifyResponseToMerchant | Request: [input={"result":null,"response_timestamp":"2025-06-12T11:14:31.142Z","response_code":"106","metadata":{"reason_message":"Invalid format for PAN number","billable":"N"},"response_message":"Invalid ID Number or Combination of Inputs","request_timestamp":"2025-06-12T11:14:31.139Z","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a"}, trackId=KYC20250612164430335, merchantId=K10001, productRate=459]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanResponseUpdate.updatePanResponse | Request: [trackId=KYC20250612164430335, response=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null), input={"result":null,"response_timestamp":"2025-06-12T11:14:31.142Z","response_code":"106","metadata":{"reason_message":"Invalid format for PAN number","billable":"N"},"response_message":"Invalid ID Number or Combination of Inputs","request_timestamp":"2025-06-12T11:14:31.139Z","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a"}, isSuccess=false, requestId=e43835b8-1de2-4e06-8846-f80b7cdd453a, productRate=459]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | PanVerificationRepository.findByTrackId | Request: [trackId=KYC20250612164430335]
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanVerificationRepository.findByTrackId | ExecutionTime: 17ms | Response: KycData(id=1, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=null, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=null, otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=null, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=null, responseCode=null, billable=null, ResponseResult=null, source=null, status=null, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse=null, productRate=null, verificationId=null, customerName=null, legalName=null)
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : AOP Logger Pan Service{}
+2025-06-12 16:44:30 [http-nio-8044-exec-4] INFO  : 📥 BEFORE Method | CrudRepository.save | Request: [entity=KycData(id=1, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=2025-06-12T16:44:30.974754, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null), otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=e43835b8-1de2-4e06-8846-f80b7cdd453a, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=Invalid format for PAN number., responseCode=210, billable=N, ResponseResult=null, source=null, status=FAILED, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse={"result":null,"response_timestamp":"2025-06-12T11:14:31.142Z","response_code":"106","metadata":{"reason_message":"Invalid format for PAN number","billable":"N"},"response_message":"Invalid ID Number or Combination of Inputs","request_timestamp":"2025-06-12T11:14:31.139Z","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a"}, productRate=459, verificationId=, customerName=null, legalName=null)]
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | CrudRepository.save | ExecutionTime: 28ms | Response: KycData(id=1, merchantId=K10001, merchantName=AbcmTest, merchantRequestAt=2025-06-12T16:44:30.334593700, merchantResponseAt=2025-06-12T16:44:30.974754, created_at=2025-06-12T16:44:30.334593700, merchantRequest=PanVerifyRequest(merchantId=K10001, customerPanNumber=, consent=Y), merchantResponse=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null), otp=null, otpVerify=false, identificationNo=, groupId=null, taskId=null, requestId=e43835b8-1de2-4e06-8846-f80b7cdd453a, product=PAN, clientProviderName=ZOOP, consent=Y, reasonMessage=null, responseMessage=Invalid format for PAN number., responseCode=210, billable=N, ResponseResult=null, source=null, status=FAILED, trackId=KYC20250612164430335, providerRequest={data={consent=Y, consent_text=I hereby declare my consent agreement for fetching my information via ZOOP API., customer_pan_number=}}, ProviderResponse={"result":null,"response_timestamp":"2025-06-12T11:14:31.142Z","response_code":"106","metadata":{"reason_message":"Invalid format for PAN number","billable":"N"},"response_message":"Invalid ID Number or Combination of Inputs","request_timestamp":"2025-06-12T11:14:31.139Z","group_id":"84a4b9eb-ea6f-493a-b08a-3c978c12efd8","success":false,"task_id":"b48f7a97-118e-46ce-9ecc-dc62972c2af0","request_id":"e43835b8-1de2-4e06-8846-f80b7cdd453a"}, productRate=459, verificationId=, customerName=null, legalName=null)
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : Updated response fields for trackId: KYC20250612164430335, billable: N
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanResponseUpdate.updatePanResponse | ExecutionTime: 47ms | Response: null
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ZoopResponseHandler.PanVerifyResponseToMerchant | ExecutionTime: 49ms | Response: ResponseModel(message=failed, statusCode=400, data=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null))
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | ResponseDispatcher.getResponse | ExecutionTime: 50ms | Response: ResponseModel(message=failed, statusCode=400, data=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null))
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanVerifyServiceImpl.processPanVerification | ExecutionTime: 1494ms | Response: ResponseModel(message=failed, statusCode=400, data=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null))
+2025-06-12 16:44:31 [http-nio-8044-exec-4] INFO  : ✅ AFTER Method  | PanKycApiController.verifyPan | ExecutionTime: 1496ms | Response: <400 BAD_REQUEST Bad Request,ResponseModel(message=failed, statusCode=400, data=PanResponseToMerchant(response_code=210, response_message=Invalid format for PAN number., billable=N, success=false, track_id=KYC20250612164430335, merchant_id=K10001, reference_id=null, response_timestamp=2025-06-12T11:14:30.955Z, pan_number=null, user_full_name=null, user_email=null, user_phone_number=null, user_dob=null, user_gender=null, masked_aadhaar=null, aadhaar_linked_status=null, user_address=null)),[]>
+2025-06-12 16:44:47 [RMI TCP Connection(5)-127.0.0.1] INFO  : Application shutdown requested.
+2025-06-12 16:44:47 [RMI TCP Connection(5)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-06-12 16:44:48 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-06-12 16:44:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-12 16:44:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-06-12 16:44:48 [RMI TCP Connection(5)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

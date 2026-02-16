@@ -1,0 +1,38 @@
+2025-04-11 12:36:51 [restartedMain] INFO  : Starting AbcmAadhaarApiApplication using Java 22.0.1 with PID 30808 (D:\AbcmKycServiceUiApp\abcm-aadhaar-api\abcm-aadhaar-api\target\classes started by Pramod in D:\AbcmKycServiceUiApp\abcm-aadhaar-api\abcm-aadhaar-api)
+2025-04-11 12:36:51 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-11 12:36:52 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-11 12:36:52 [restartedMain] INFO  : Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interface.
+2025-04-11 12:36:52 [restartedMain] INFO  : Tomcat initialized with port 8045 (http)
+2025-04-11 12:36:52 [restartedMain] INFO  : Initializing ProtocolHandler ["http-nio-8045"]
+2025-04-11 12:36:52 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-11 12:36:52 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-11 12:36:52 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-11 12:36:52 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1041 ms
+2025-04-11 12:36:52 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-11 12:36:52 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-11 12:36:52 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-11 12:36:52 [restartedMain] INFO  : HikariPool-2 - Starting...
+2025-04-11 12:36:53 [restartedMain] INFO  : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60b02162
+2025-04-11 12:36:53 [restartedMain] INFO  : HikariPool-2 - Start completed.
+2025-04-11 12:36:53 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-11 12:36:53 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-11 12:36:53 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 12:36:54 [restartedMain] INFO  : Starting ProtocolHandler ["http-nio-8045"]
+2025-04-11 12:36:54 [restartedMain] INFO  : Tomcat started on port 8045 (http) with context path '/'
+2025-04-11 12:36:54 [restartedMain] INFO  : Started AbcmAadhaarApiApplication in 2.656 seconds (process running for 412.522)
+2025-04-11 12:36:54 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-11 12:37:09 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-11 12:37:09 [Thread-13] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-11 12:37:09 [tomcat-shutdown] INFO  : Pausing ProtocolHandler ["http-nio-8045"]
+2025-04-11 12:37:09 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-11 12:37:09 [Thread-13] INFO  : Stopping ProtocolHandler ["http-nio-8045"]
+2025-04-11 12:37:09 [Thread-13] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-11 12:37:09 [Thread-13] INFO  : HikariPool-2 - Shutdown initiated...
+2025-04-11 12:37:09 [Thread-13] INFO  : HikariPool-2 - Shutdown completed.

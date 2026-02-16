@@ -1,0 +1,89 @@
+custom:
+  messages:
+    success: "Success"
+    service-inactive: "service is inactive."
+    merchant-inactive: "Merchant is inactive."
+    internal-server: "Internal server error."
+    failed: "Request failed."
+    balance: "Insufficient balance for the merchant."
+    key: "Unauthorized: Invalid API key or App ID."
+    Not-Found: "Merchant Details Not Found"
+    wallet-not-found: "Wallet not found."
+    merchant-id-validation: "Merchant ID is missing or incorrect."
+    consent-validation: "Consent must be 'Y'"
+    aadhaar-validation: "Invalid Aadhaar Number or Missing."
+    request-id-validation: "Invalid input: Request ID is required."
+    aadhaar-otp-validation: "Invalid input: Aadhaar OTP is required."
+    aadhaar-format-validation: "Invalid Aadhaar Number."
+    data-not-found: "Aadhaar OKYC Report Data Not Found"
+    otp-send-success: "OTP sent successfully"
+    otp-send-failed: "Failed to send OTP"
+    inputs- exceeded: "Number of inputs exceeded"
+    invalid-client : "authentication_failed"
+    otp-validation: "OTP cannot be empty and must be 6 digits"
+    duplicate-txn: "Duplicate transaction: request already processed"
+    product-not-found: "Product Details not found"
+    otp-verify-massage: "OTP Verified Successfully"
+    otp-verify-failed: "OTP Verification Failed"
+    provider-invalid-res: "The service is currently unavailable. Please try again later"
+    otp-expired-res: "Otp expired"
+    porvider-blc-low: "Server is currently busy. Please try again later."
+    wallet-expired: "Wallet validity expired"
+    doc-validation: "Document must be ADHAR."
+    redirect-validation: "Redirect url is missing"
+    response-validation: "response url is missing"
+    order-id-missing: "Order ID is required."
+    order-id-duplicate: "Provided Order ID already exists. Please provide a unique Order ID."
+    otp-session: "Session expired – please initiate a new Aadhaar request."
+    request-id-not-found: "Invalid reference ID or no data found for your request."
+    aadhar-not-linked-mobile: "Aadhaar number not linked to mobile number"
+    aadhar-no-formate-validation: "Invalid Aadhaar number format.It must be 12 digits."
+  
+
+  codes:
+    success: 200
+    service-inactive: 201
+    merchant-inactive: 202
+    balance: 203
+    wallet-not-found: 204
+    merchant-id-validation: 205
+    consent-validation: 206
+    aadhaar-validation: 207
+    request-id-validation: 208
+    aadhaar-otp-validation: 209
+    aadhaar-format-validation: 210
+    requestId-invalid: 211
+    duplicate-transaction: 212
+    otp-send-success: 213
+    inputs- exceeded: 214
+    invalid-client: 215
+    otp-validation: 216
+    duplicate-txn: 217
+    otp-verify-massage: 218
+    otp-send-failed: 219
+    otp-verify-failed: 220 
+    otp-expired-res: 221
+    product-not-found: 422
+    data-not-found: 404
+    key: 403
+    Not-Found: 404
+    porvider-blc-low: 429
+    failed: 500
+    internal-server: 500
+    provider-invalid-res: 503
+    wallet-expired: 309
+    doc-validation: 303
+    redirect-validation: 304
+    response-validation: 305
+    order-id-missing: 400
+    otp-session: 304
+    request-id-not-found: "305"
+    aadhar-not-linked-mobile: "306"
+    aadhar-no-formate-validation: "307"
+    
+    
+    
+    
+    
+    
+   

@@ -1,0 +1,22 @@
+email.send.from: noreply@abcmapp.com
+email.send.to: support@ablepay.in
+#support@ablepay.in 
+email.send.bcc: support@abcmapp.com,krushna.dakale@abcmapp.dev
+#support@abcmapp.com
+
+
+email.failure.verify.voter.subject: e-KYC Service {productName} Verification Failed
+email.failure.template.path: C:/CHATNPAY_LOG/abcm-esign-api/src/main/resources/static/e-KYCEmailTemplate/VoterIdFailedTemplate.html
+# /opt/tomcat/webapps/abcm-voterid-api/WEB-INF/classes/static/e-KYCEmailTemplate/VoterIdFailedTemplate.html
+# C://KYCGIT//abcm-voter_id-api//src//main//resources//static//e-KYCEmailTemplate//VoterIdFailedTemplate.html
+
+email.lowBalance.template.path: /opt/tomcat/webapps/abcm-voterid-api/WEB-INF/classes/static/e-KYCEmailTemplate/e-KYC-insufficient-balance.html
+#C://KYCGIT//abcm-voter_id-api//src//main//resources//static//e-KYCEmailTemplate//e-KYC-insufficient-balance.html
+
+email.send.api.url: https://enotification.chatnpay.com/email/withmailer/sendEmailWithAttachmentWithCc
+email.lowbalance.subject: Service Suspended Due to Insufficient Wallet Balance
+email.serviceDown.subject : "Important: e-KYC Service Interruption Due to High Demand"
+email.serviceDown.template.path: /opt/tomcat/webapps/abcm-voterid-api/WEB-INF/classes/static/e-KycServiceDownEmail-T.html
+
+
+Env: LIVE Environment

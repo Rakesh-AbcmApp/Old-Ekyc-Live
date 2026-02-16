@@ -1,0 +1,38 @@
+server:
+  port: 8044
+
+spring:
+  datasource:
+    url: jdbc:mysql://wnpay-prd.cayouse6wadz.ap-south-1.rds.amazonaws.com:3306/abcm_kyc_ms_db?createDatabaseIfNotExist=true&useSSL=true&useUnicode=yes&characterEncoding=UTF-8
+    username: wnpayadmin
+    password: AbcmWnpayRds2022
+    driver-class-name: com.mysql.cj.jdbc.Driver  # Explicitly define the driver class name
+  jpa:
+    hibernate:
+      ddl-auto: update
+        # Removed dialect property
+    show-sql: false
+
+merchantDetails: https://ekyc.ablepay.in/KycRouting
+
+LogFilepath: /home/ekyc-log/Dl-Api-Service-Log/
+
+logging:
+  level:
+    root: INFO
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info
+  endpoint:
+    health:
+      show-details: always
+
+prometheus:
+  metrics:
+    export:
+      enabled: true
+
+ContextPath: https://ekyc.ablepay.in/abcm-dl-api

@@ -1,0 +1,1502 @@
+2025-04-17 09:44:45 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 09:44:45 [Thread-232] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 09:44:45 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 09:44:45 [Thread-232] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 09:44:45 [Thread-232] INFO  : HikariPool-63 - Shutdown initiated...
+2025-04-17 09:44:45 [Thread-232] INFO  : HikariPool-63 - Shutdown completed.
+2025-04-17 09:44:45 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 09:44:45 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 09:44:46 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 09:44:46 [restartedMain] INFO  : Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2025-04-17 09:44:46 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 09:44:46 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 09:44:46 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 09:44:46 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 09:44:46 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 09:44:46 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1090 ms
+2025-04-17 09:44:46 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 09:44:46 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 09:44:46 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 09:44:46 [restartedMain] INFO  : HikariPool-64 - Starting...
+2025-04-17 09:44:47 [restartedMain] INFO  : HikariPool-64 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ba63d28
+2025-04-17 09:44:47 [restartedMain] INFO  : HikariPool-64 - Start completed.
+2025-04-17 09:44:47 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-64)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 09:44:47 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 09:44:47 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 09:44:47 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 09:44:48 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 09:44:48 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 09:44:48 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.683 seconds (process running for 83588.362)
+2025-04-17 09:44:48 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 09:45:01 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 09:45:01 [Thread-236] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 09:45:01 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 09:45:01 [Thread-236] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 09:45:01 [Thread-236] INFO  : HikariPool-64 - Shutdown initiated...
+2025-04-17 09:45:01 [Thread-236] INFO  : HikariPool-64 - Shutdown completed.
+2025-04-17 09:45:01 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 09:45:01 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 09:45:01 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 09:45:01 [restartedMain] INFO  : Finished Spring Data repository scanning in 26 ms. Found 5 JPA repository interfaces.
+2025-04-17 09:45:01 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 09:45:01 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 09:45:01 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 09:45:02 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 09:45:02 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 09:45:02 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 534 ms
+2025-04-17 09:45:02 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 09:45:02 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 09:45:02 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 09:45:02 [restartedMain] INFO  : HikariPool-65 - Starting...
+2025-04-17 09:45:02 [restartedMain] INFO  : HikariPool-65 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ac58c55
+2025-04-17 09:45:02 [restartedMain] INFO  : HikariPool-65 - Start completed.
+2025-04-17 09:45:02 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-65)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 09:45:02 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 09:45:02 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 09:45:02 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 09:45:02 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 09:45:02 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 09:45:02 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.469 seconds (process running for 83603.006)
+2025-04-17 09:45:02 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 09:45:08 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 09:45:08 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 09:45:08 [http-nio-8087-exec-1] INFO  : Completed initialization in 1 ms
+2025-04-17 09:45:10 [http-nio-8087-exec-2] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 09:45:10 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:45:12 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:48:55 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:52:38 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:55:06 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:55:22 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 09:55:35 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:03:12 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:03:44 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:03:46 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:04:39 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:10:39 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:11:11 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:14:07 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:34:51 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:34:55 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:34:58 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:34:59 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:01 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:02 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:03 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:05 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:08 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:16 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:18 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:19 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:21 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:24 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:41 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:43 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:44 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:35:45 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:36:22 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:36:24 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 10:36:30 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:36:53 [http-nio-8087-exec-7] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 11:36:53 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:36:56 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:36:58 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:00 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:02 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:03 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:05 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:07 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:08 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:10 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:13 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 11:37:15 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:19:58 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 12:19:58 [Thread-240] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 12:19:58 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 12:19:58 [Thread-240] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:19:58 [Thread-240] INFO  : HikariPool-65 - Shutdown initiated...
+2025-04-17 12:19:58 [Thread-240] INFO  : HikariPool-65 - Shutdown completed.
+2025-04-17 12:19:58 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 12:19:58 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 12:19:59 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 12:19:59 [restartedMain] INFO  : Finished Spring Data repository scanning in 35 ms. Found 5 JPA repository interfaces.
+2025-04-17 12:19:59 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 12:19:59 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 12:19:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 12:19:59 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 12:19:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 12:19:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 719 ms
+2025-04-17 12:19:59 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 12:19:59 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 12:19:59 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 12:19:59 [restartedMain] INFO  : HikariPool-66 - Starting...
+2025-04-17 12:19:59 [restartedMain] INFO  : HikariPool-66 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cffe549
+2025-04-17 12:19:59 [restartedMain] INFO  : HikariPool-66 - Start completed.
+2025-04-17 12:19:59 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-66)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 12:20:00 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 12:20:00 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:20:00 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 12:20:00 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 12:20:00 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 12:20:00 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.875 seconds (process running for 92900.807)
+2025-04-17 12:20:00 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 12:20:03 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 12:20:03 [Thread-244] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 12:20:03 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 12:20:03 [Thread-244] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:20:03 [Thread-244] INFO  : HikariPool-66 - Shutdown initiated...
+2025-04-17 12:20:03 [Thread-244] INFO  : HikariPool-66 - Shutdown completed.
+2025-04-17 12:20:03 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 12:20:03 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 12:20:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 12:20:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 29 ms. Found 5 JPA repository interfaces.
+2025-04-17 12:20:04 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 12:20:04 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 12:20:04 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 12:20:04 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 12:20:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 12:20:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 529 ms
+2025-04-17 12:20:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 12:20:04 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 12:20:04 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 12:20:04 [restartedMain] INFO  : HikariPool-67 - Starting...
+2025-04-17 12:20:04 [restartedMain] INFO  : HikariPool-67 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7111aab5
+2025-04-17 12:20:04 [restartedMain] INFO  : HikariPool-67 - Start completed.
+2025-04-17 12:20:04 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-67)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 12:20:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 12:20:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:20:04 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 12:20:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 12:20:04 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 12:20:04 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.237 seconds (process running for 92904.956)
+2025-04-17 12:20:04 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 12:20:31 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 12:20:31 [Thread-248] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 12:20:31 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 12:20:31 [Thread-248] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:20:31 [Thread-248] INFO  : HikariPool-67 - Shutdown initiated...
+2025-04-17 12:20:31 [Thread-248] INFO  : HikariPool-67 - Shutdown completed.
+2025-04-17 12:20:31 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 12:20:31 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 12:20:32 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 12:20:32 [restartedMain] INFO  : Finished Spring Data repository scanning in 24 ms. Found 5 JPA repository interfaces.
+2025-04-17 12:20:32 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 12:20:32 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 12:20:32 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 12:20:32 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 12:20:32 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 12:20:32 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 437 ms
+2025-04-17 12:20:32 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 12:20:32 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 12:20:32 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 12:20:32 [restartedMain] INFO  : HikariPool-68 - Starting...
+2025-04-17 12:20:32 [restartedMain] INFO  : HikariPool-68 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e303c17
+2025-04-17 12:20:32 [restartedMain] INFO  : HikariPool-68 - Start completed.
+2025-04-17 12:20:32 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-68)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 12:20:32 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 12:20:32 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:20:32 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 12:20:33 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 12:20:33 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 12:20:33 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.149 seconds (process running for 92933.236)
+2025-04-17 12:20:33 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 12:22:03 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 12:22:03 [Thread-252] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 12:22:03 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 12:22:03 [Thread-252] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:22:03 [Thread-252] INFO  : HikariPool-68 - Shutdown initiated...
+2025-04-17 12:22:03 [Thread-252] INFO  : HikariPool-68 - Shutdown completed.
+2025-04-17 12:22:03 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 12:22:03 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 12:22:04 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 12:22:04 [restartedMain] INFO  : Finished Spring Data repository scanning in 25 ms. Found 5 JPA repository interfaces.
+2025-04-17 12:22:04 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 12:22:04 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 12:22:04 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 12:22:04 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 12:22:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 12:22:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 393 ms
+2025-04-17 12:22:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 12:22:04 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 12:22:04 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 12:22:04 [restartedMain] INFO  : HikariPool-69 - Starting...
+2025-04-17 12:22:04 [restartedMain] INFO  : HikariPool-69 - Added connection com.mysql.cj.jdbc.ConnectionImpl@358780b2
+2025-04-17 12:22:04 [restartedMain] INFO  : HikariPool-69 - Start completed.
+2025-04-17 12:22:04 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-69)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 12:22:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 12:22:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 12:22:04 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 12:22:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 12:22:04 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 12:22:04 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.087 seconds (process running for 93025.061)
+2025-04-17 12:22:04 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 12:22:09 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 12:22:09 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 12:22:09 [http-nio-8087-exec-1] INFO  : Completed initialization in 4 ms
+2025-04-17 12:22:11 [http-nio-8087-exec-8] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 12:22:11 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:22:13 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:24:56 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:27:25 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:27:46 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 12:39:37 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 15:55:31 [File Watcher] INFO  : Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+2025-04-17 15:55:31 [Thread-256] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 15:55:31 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 15:55:31 [Thread-256] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:55:31 [Thread-256] INFO  : HikariPool-69 - Shutdown initiated...
+2025-04-17 15:55:31 [Thread-256] INFO  : HikariPool-69 - Shutdown completed.
+2025-04-17 15:55:32 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 15:55:32 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 15:55:33 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 15:55:33 [restartedMain] INFO  : Finished Spring Data repository scanning in 51 ms. Found 5 JPA repository interfaces.
+2025-04-17 15:55:33 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 15:55:33 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 15:55:33 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 15:55:33 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 15:55:33 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 15:55:33 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1300 ms
+2025-04-17 15:55:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 15:55:33 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 15:55:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 15:55:33 [restartedMain] INFO  : HikariPool-70 - Starting...
+2025-04-17 15:55:33 [restartedMain] INFO  : HikariPool-70 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78e2a112
+2025-04-17 15:55:33 [restartedMain] INFO  : HikariPool-70 - Start completed.
+2025-04-17 15:55:33 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-70)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 15:55:34 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 15:55:34 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:55:34 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:55:34 [restartedMain] INFO  : HikariPool-70 - Shutdown initiated...
+2025-04-17 15:55:34 [restartedMain] INFO  : HikariPool-70 - Shutdown completed.
+2025-04-17 15:55:34 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 15:55:34 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 15:56:53 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 15:56:53 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 15:56:54 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 15:56:54 [restartedMain] INFO  : Finished Spring Data repository scanning in 30 ms. Found 5 JPA repository interfaces.
+2025-04-17 15:56:54 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 15:56:54 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 15:56:54 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 15:56:54 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 15:56:54 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 15:56:54 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 643 ms
+2025-04-17 15:56:54 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 15:56:54 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 15:56:54 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 15:56:54 [restartedMain] INFO  : HikariPool-71 - Starting...
+2025-04-17 15:56:54 [restartedMain] INFO  : HikariPool-71 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e8b46df
+2025-04-17 15:56:54 [restartedMain] INFO  : HikariPool-71 - Start completed.
+2025-04-17 15:56:54 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-71)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 15:56:54 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 15:56:54 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:56:55 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 15:56:55 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 15:56:55 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 15:56:55 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.776 seconds (process running for 105915.62)
+2025-04-17 15:56:55 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 15:58:39 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 15:58:39 [Thread-260] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 15:58:39 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 15:58:39 [Thread-260] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:58:39 [Thread-260] INFO  : HikariPool-71 - Shutdown initiated...
+2025-04-17 15:58:39 [Thread-260] INFO  : HikariPool-71 - Shutdown completed.
+2025-04-17 15:58:39 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 15:58:39 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 15:58:39 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 15:58:39 [restartedMain] INFO  : Finished Spring Data repository scanning in 31 ms. Found 5 JPA repository interfaces.
+2025-04-17 15:58:39 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 15:58:39 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 15:58:39 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 15:58:39 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 15:58:39 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 15:58:39 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 528 ms
+2025-04-17 15:58:39 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 15:58:39 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 15:58:39 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 15:58:39 [restartedMain] INFO  : HikariPool-72 - Starting...
+2025-04-17 15:58:39 [restartedMain] INFO  : HikariPool-72 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5bb6b42f
+2025-04-17 15:58:40 [restartedMain] INFO  : HikariPool-72 - Start completed.
+2025-04-17 15:58:40 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-72)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 15:58:40 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 15:58:40 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 15:58:40 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 15:58:40 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 15:58:40 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 15:58:40 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 1.438 seconds (process running for 106020.935)
+2025-04-17 15:58:40 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:22:42 [File Watcher] INFO  : Restarting due to 4 class path changes (1 addition, 0 deletions, 3 modifications)
+2025-04-17 16:22:42 [Thread-267] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:22:42 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:22:42 [Thread-267] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:22:42 [Thread-267] INFO  : HikariPool-72 - Shutdown initiated...
+2025-04-17 16:22:42 [Thread-267] INFO  : HikariPool-72 - Shutdown completed.
+2025-04-17 16:22:42 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:22:42 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:22:43 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:22:43 [restartedMain] INFO  : Finished Spring Data repository scanning in 32 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:22:43 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:22:43 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:22:43 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:22:43 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:22:43 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:22:43 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 746 ms
+2025-04-17 16:22:43 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:22:43 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:22:43 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:22:43 [restartedMain] INFO  : HikariPool-73 - Starting...
+2025-04-17 16:22:43 [restartedMain] INFO  : HikariPool-73 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f4156a4
+2025-04-17 16:22:43 [restartedMain] INFO  : HikariPool-73 - Start completed.
+2025-04-17 16:22:43 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-73)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:22:43 [restartedMain] INFO  : HikariPool-73 - Shutdown initiated...
+2025-04-17 16:22:43 [restartedMain] INFO  : HikariPool-73 - Shutdown completed.
+2025-04-17 16:22:43 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:22:43 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:23:14 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:23:14 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:23:15 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:23:15 [restartedMain] INFO  : Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:23:15 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:23:15 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:23:15 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:23:15 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:23:15 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:23:15 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 491 ms
+2025-04-17 16:23:15 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:23:15 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:23:15 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:23:15 [restartedMain] INFO  : HikariPool-74 - Starting...
+2025-04-17 16:23:15 [restartedMain] INFO  : HikariPool-74 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43062bd6
+2025-04-17 16:23:15 [restartedMain] INFO  : HikariPool-74 - Start completed.
+2025-04-17 16:23:15 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-74)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:23:15 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:23:17 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:23:17 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:23:17 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:23:17 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:23:17 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.68 seconds (process running for 107497.683)
+2025-04-17 16:23:17 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:23:55 [File Watcher] INFO  : Restarting due to 3 class path changes (2 additions, 0 deletions, 1 modification)
+2025-04-17 16:23:55 [Thread-271] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:23:55 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:23:55 [Thread-271] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:23:55 [Thread-271] INFO  : HikariPool-74 - Shutdown initiated...
+2025-04-17 16:23:55 [Thread-271] INFO  : HikariPool-74 - Shutdown completed.
+2025-04-17 16:23:55 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:23:55 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:23:56 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:23:56 [restartedMain] INFO  : Finished Spring Data repository scanning in 32 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:23:56 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:23:56 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:23:56 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:23:56 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:23:56 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:23:56 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 793 ms
+2025-04-17 16:23:56 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:23:56 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:23:56 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:23:56 [restartedMain] INFO  : HikariPool-75 - Starting...
+2025-04-17 16:23:56 [restartedMain] INFO  : HikariPool-75 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3897ea76
+2025-04-17 16:23:56 [restartedMain] INFO  : HikariPool-75 - Start completed.
+2025-04-17 16:23:56 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-75)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:23:57 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:23:57 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:23:57 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:23:57 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:23:57 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:23:57 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.027 seconds (process running for 107537.856)
+2025-04-17 16:23:57 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:25:41 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:25:41 [Thread-278] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:25:41 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:25:41 [Thread-278] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:25:41 [Thread-278] INFO  : HikariPool-75 - Shutdown initiated...
+2025-04-17 16:25:41 [Thread-278] INFO  : HikariPool-75 - Shutdown completed.
+2025-04-17 16:25:42 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:25:42 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:25:42 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:25:42 [restartedMain] INFO  : Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:25:43 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:25:43 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:25:43 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:25:43 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:25:43 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:25:43 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1112 ms
+2025-04-17 16:25:43 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:25:43 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:25:43 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:25:43 [restartedMain] INFO  : HikariPool-76 - Starting...
+2025-04-17 16:25:43 [restartedMain] INFO  : HikariPool-76 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7294c8e9
+2025-04-17 16:25:43 [restartedMain] INFO  : HikariPool-76 - Start completed.
+2025-04-17 16:25:43 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-76)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:25:43 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:25:44 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:25:44 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:25:44 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:25:44 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:25:44 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.634 seconds (process running for 107644.857)
+2025-04-17 16:25:44 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:26:03 [File Watcher] INFO  : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-04-17 16:26:03 [Thread-282] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:26:03 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:26:03 [Thread-282] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:26:03 [Thread-282] INFO  : HikariPool-76 - Shutdown initiated...
+2025-04-17 16:26:03 [Thread-282] INFO  : HikariPool-76 - Shutdown completed.
+2025-04-17 16:26:03 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:26:03 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:26:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:26:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 31 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:26:03 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:26:03 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:26:03 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:26:04 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:26:04 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:26:04 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 669 ms
+2025-04-17 16:26:04 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:26:04 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:26:04 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:26:04 [restartedMain] INFO  : HikariPool-77 - Starting...
+2025-04-17 16:26:04 [restartedMain] INFO  : HikariPool-77 - Added connection com.mysql.cj.jdbc.ConnectionImpl@419af200
+2025-04-17 16:26:04 [restartedMain] INFO  : HikariPool-77 - Start completed.
+2025-04-17 16:26:04 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-77)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:26:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:26:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:26:04 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:26:04 [restartedMain] INFO  : HikariPool-77 - Shutdown initiated...
+2025-04-17 16:26:04 [restartedMain] INFO  : HikariPool-77 - Shutdown completed.
+2025-04-17 16:26:04 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:26:04 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:26:32 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:26:32 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:26:32 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:26:32 [restartedMain] INFO  : Finished Spring Data repository scanning in 30 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:26:32 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:26:32 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:26:32 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:26:32 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:26:32 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:26:32 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 562 ms
+2025-04-17 16:26:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:26:33 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:26:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:26:33 [restartedMain] INFO  : HikariPool-78 - Starting...
+2025-04-17 16:26:33 [restartedMain] INFO  : HikariPool-78 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b5b01c5
+2025-04-17 16:26:33 [restartedMain] INFO  : HikariPool-78 - Start completed.
+2025-04-17 16:26:33 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-78)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:26:33 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:26:33 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:26:33 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:26:33 [restartedMain] INFO  : HikariPool-78 - Shutdown initiated...
+2025-04-17 16:26:33 [restartedMain] INFO  : HikariPool-78 - Shutdown completed.
+2025-04-17 16:26:33 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:26:33 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:27:17 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:27:17 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:27:17 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:27:17 [restartedMain] INFO  : Finished Spring Data repository scanning in 35 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:27:17 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:27:17 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:27:17 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:27:17 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:27:17 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:27:17 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 566 ms
+2025-04-17 16:27:17 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:27:17 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:27:17 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:27:17 [restartedMain] INFO  : HikariPool-79 - Starting...
+2025-04-17 16:27:17 [restartedMain] INFO  : HikariPool-79 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c418d1
+2025-04-17 16:27:17 [restartedMain] INFO  : HikariPool-79 - Start completed.
+2025-04-17 16:27:17 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-79)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:27:18 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:27:18 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:27:18 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:27:18 [restartedMain] INFO  : HikariPool-79 - Shutdown initiated...
+2025-04-17 16:27:18 [restartedMain] INFO  : HikariPool-79 - Shutdown completed.
+2025-04-17 16:27:18 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:27:18 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:27:33 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:27:33 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:27:33 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:27:33 [restartedMain] INFO  : Finished Spring Data repository scanning in 27 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:27:33 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:27:33 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:27:33 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:27:33 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:27:33 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:27:33 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 477 ms
+2025-04-17 16:27:33 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:27:33 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:27:33 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:27:33 [restartedMain] INFO  : HikariPool-80 - Starting...
+2025-04-17 16:27:33 [restartedMain] INFO  : HikariPool-80 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a6bd757
+2025-04-17 16:27:33 [restartedMain] INFO  : HikariPool-80 - Start completed.
+2025-04-17 16:27:33 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-80)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:27:33 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:27:34 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:27:34 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:27:34 [restartedMain] INFO  : HikariPool-80 - Shutdown initiated...
+2025-04-17 16:27:34 [restartedMain] INFO  : HikariPool-80 - Shutdown completed.
+2025-04-17 16:27:34 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:27:34 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:28:27 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:28:27 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:28:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:28:27 [restartedMain] INFO  : Finished Spring Data repository scanning in 68 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:28:28 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:28:28 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:28:28 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:28:28 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:28:28 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:28:28 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1039 ms
+2025-04-17 16:28:28 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:28:28 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:28:28 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:28:28 [restartedMain] INFO  : HikariPool-81 - Starting...
+2025-04-17 16:28:28 [restartedMain] INFO  : HikariPool-81 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53fff6b1
+2025-04-17 16:28:28 [restartedMain] INFO  : HikariPool-81 - Start completed.
+2025-04-17 16:28:28 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-81)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:28:28 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:28:29 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:28:29 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:28:29 [restartedMain] INFO  : HikariPool-81 - Shutdown initiated...
+2025-04-17 16:28:29 [restartedMain] INFO  : HikariPool-81 - Shutdown completed.
+2025-04-17 16:28:29 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:28:29 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:28:34 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:28:34 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:28:35 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:28:35 [restartedMain] INFO  : Finished Spring Data repository scanning in 33 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:28:35 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:28:35 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:28:35 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:28:35 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:28:35 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:28:35 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 689 ms
+2025-04-17 16:28:35 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:28:35 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:28:35 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:28:35 [restartedMain] INFO  : HikariPool-82 - Starting...
+2025-04-17 16:28:35 [restartedMain] INFO  : HikariPool-82 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7421a42a
+2025-04-17 16:28:35 [restartedMain] INFO  : HikariPool-82 - Start completed.
+2025-04-17 16:28:35 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-82)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:28:35 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:28:36 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:28:36 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:28:36 [restartedMain] INFO  : HikariPool-82 - Shutdown initiated...
+2025-04-17 16:28:36 [restartedMain] INFO  : HikariPool-82 - Shutdown completed.
+2025-04-17 16:28:36 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:28:36 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:30:01 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:30:01 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:30:02 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:30:02 [restartedMain] INFO  : Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:30:02 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:30:02 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:30:02 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:30:03 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:30:03 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:30:03 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1187 ms
+2025-04-17 16:30:03 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:30:03 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:30:03 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:30:03 [restartedMain] INFO  : HikariPool-83 - Starting...
+2025-04-17 16:30:03 [restartedMain] INFO  : HikariPool-83 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21f3cc11
+2025-04-17 16:30:03 [restartedMain] INFO  : HikariPool-83 - Start completed.
+2025-04-17 16:30:03 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-83)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:30:03 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:30:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:04 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:04 [restartedMain] INFO  : HikariPool-83 - Shutdown initiated...
+2025-04-17 16:30:04 [restartedMain] INFO  : HikariPool-83 - Shutdown completed.
+2025-04-17 16:30:04 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:30:04 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:30:06 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:30:06 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:30:06 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:30:06 [restartedMain] INFO  : Finished Spring Data repository scanning in 70 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:30:06 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:30:06 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:30:06 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:30:07 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:30:07 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:30:07 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 766 ms
+2025-04-17 16:30:07 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:30:07 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:30:07 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:30:07 [restartedMain] INFO  : HikariPool-84 - Starting...
+2025-04-17 16:30:07 [restartedMain] INFO  : HikariPool-84 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33977e61
+2025-04-17 16:30:07 [restartedMain] INFO  : HikariPool-84 - Start completed.
+2025-04-17 16:30:07 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-84)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:30:07 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:30:07 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:07 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:07 [restartedMain] INFO  : HikariPool-84 - Shutdown initiated...
+2025-04-17 16:30:07 [restartedMain] INFO  : HikariPool-84 - Shutdown completed.
+2025-04-17 16:30:07 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:30:07 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:30:15 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:30:15 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:30:16 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:30:16 [restartedMain] INFO  : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:30:16 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:30:16 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:30:16 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:30:16 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:30:16 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:30:16 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 688 ms
+2025-04-17 16:30:16 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:30:16 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:30:16 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:30:16 [restartedMain] INFO  : HikariPool-85 - Starting...
+2025-04-17 16:30:16 [restartedMain] INFO  : HikariPool-85 - Added connection com.mysql.cj.jdbc.ConnectionImpl@849982d
+2025-04-17 16:30:16 [restartedMain] INFO  : HikariPool-85 - Start completed.
+2025-04-17 16:30:16 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-85)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:30:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:30:17 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:17 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:30:17 [restartedMain] INFO  : HikariPool-85 - Shutdown initiated...
+2025-04-17 16:30:17 [restartedMain] INFO  : HikariPool-85 - Shutdown completed.
+2025-04-17 16:30:17 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:30:17 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:31:26 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:31:26 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:31:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:31:27 [restartedMain] INFO  : Finished Spring Data repository scanning in 67 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:31:27 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:31:27 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:31:27 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:31:28 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:31:28 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:31:28 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1328 ms
+2025-04-17 16:31:28 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:31:28 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:31:28 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:31:28 [restartedMain] INFO  : HikariPool-86 - Starting...
+2025-04-17 16:31:28 [restartedMain] INFO  : HikariPool-86 - Added connection com.mysql.cj.jdbc.ConnectionImpl@765fe9b4
+2025-04-17 16:31:28 [restartedMain] INFO  : HikariPool-86 - Start completed.
+2025-04-17 16:31:28 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-86)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:31:29 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:31:29 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:31:30 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:31:30 [restartedMain] INFO  : HikariPool-86 - Shutdown initiated...
+2025-04-17 16:31:30 [restartedMain] INFO  : HikariPool-86 - Shutdown completed.
+2025-04-17 16:31:30 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:31:30 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:31:31 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:31:31 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:31:32 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:31:32 [restartedMain] INFO  : Finished Spring Data repository scanning in 43 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:31:32 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:31:32 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:31:32 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:31:32 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:31:32 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:31:32 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 836 ms
+2025-04-17 16:31:32 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:31:32 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:31:32 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:31:32 [restartedMain] INFO  : HikariPool-87 - Starting...
+2025-04-17 16:31:32 [restartedMain] INFO  : HikariPool-87 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d899410
+2025-04-17 16:31:32 [restartedMain] INFO  : HikariPool-87 - Start completed.
+2025-04-17 16:31:32 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-87)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:31:33 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:31:33 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:31:33 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:31:33 [restartedMain] INFO  : HikariPool-87 - Shutdown initiated...
+2025-04-17 16:31:33 [restartedMain] INFO  : HikariPool-87 - Shutdown completed.
+2025-04-17 16:31:33 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:31:33 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:32:26 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:32:26 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:32:27 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:32:27 [restartedMain] INFO  : Finished Spring Data repository scanning in 64 ms. Found 5 JPA repository interfaces.
+2025-04-17 16:32:27 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:32:27 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:32:27 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:32:27 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:32:27 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:32:27 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1057 ms
+2025-04-17 16:32:27 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:32:28 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:32:28 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:32:28 [restartedMain] INFO  : HikariPool-88 - Starting...
+2025-04-17 16:32:28 [restartedMain] INFO  : HikariPool-88 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26ba6e8c
+2025-04-17 16:32:28 [restartedMain] INFO  : HikariPool-88 - Start completed.
+2025-04-17 16:32:28 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-88)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:32:28 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:32:28 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:32:29 [restartedMain] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:32:29 [restartedMain] INFO  : HikariPool-88 - Shutdown initiated...
+2025-04-17 16:32:29 [restartedMain] INFO  : HikariPool-88 - Shutdown completed.
+2025-04-17 16:32:29 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:32:29 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:32:58 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:32:58 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:32:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:32:58 [restartedMain] INFO  : Finished Spring Data repository scanning in 42 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:32:59 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:32:59 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:32:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:32:59 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:32:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:32:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 969 ms
+2025-04-17 16:32:59 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:32:59 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:32:59 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:32:59 [restartedMain] INFO  : HikariPool-89 - Starting...
+2025-04-17 16:32:59 [restartedMain] INFO  : HikariPool-89 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285cdd3f
+2025-04-17 16:32:59 [restartedMain] INFO  : HikariPool-89 - Start completed.
+2025-04-17 16:32:59 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-89)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:32:59 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:33:00 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:33:00 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:33:00 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:33:00 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:33:00 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.587 seconds (process running for 108080.998)
+2025-04-17 16:33:00 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:33:56 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:33:56 [Thread-286] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:33:56 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:33:56 [Thread-286] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:33:56 [Thread-286] INFO  : HikariPool-89 - Shutdown initiated...
+2025-04-17 16:33:56 [Thread-286] INFO  : HikariPool-89 - Shutdown completed.
+2025-04-17 16:33:56 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:33:56 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:33:57 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:33:57 [restartedMain] INFO  : Finished Spring Data repository scanning in 76 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:33:57 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:33:57 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:33:57 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:33:57 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:33:57 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:33:57 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1102 ms
+2025-04-17 16:33:57 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:33:57 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:33:57 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:33:57 [restartedMain] INFO  : HikariPool-90 - Starting...
+2025-04-17 16:33:57 [restartedMain] INFO  : HikariPool-90 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7cc7e45e
+2025-04-17 16:33:57 [restartedMain] INFO  : HikariPool-90 - Start completed.
+2025-04-17 16:33:57 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-90)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:33:58 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:33:58 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:33:59 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:33:59 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:33:59 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:33:59 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.832 seconds (process running for 108139.492)
+2025-04-17 16:33:59 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:34:02 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:34:02 [Thread-326] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:34:02 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:34:02 [Thread-326] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:34:02 [Thread-326] INFO  : HikariPool-90 - Shutdown initiated...
+2025-04-17 16:34:02 [Thread-326] INFO  : HikariPool-90 - Shutdown completed.
+2025-04-17 16:34:02 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:34:02 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:34:03 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:34:03 [restartedMain] INFO  : Finished Spring Data repository scanning in 63 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:34:03 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:34:03 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:34:03 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:34:03 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:34:03 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:34:03 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 899 ms
+2025-04-17 16:34:03 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:34:03 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:34:03 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:34:03 [restartedMain] INFO  : HikariPool-91 - Starting...
+2025-04-17 16:34:03 [restartedMain] INFO  : HikariPool-91 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38eb529f
+2025-04-17 16:34:03 [restartedMain] INFO  : HikariPool-91 - Start completed.
+2025-04-17 16:34:03 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-91)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:34:04 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:34:04 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:34:04 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:34:04 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:34:05 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:34:05 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 2.171 seconds (process running for 108145.197)
+2025-04-17 16:34:05 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:34:25 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 16:34:25 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 16:34:25 [http-nio-8087-exec-1] INFO  : Completed initialization in 7 ms
+2025-04-17 16:34:28 [http-nio-8087-exec-4] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 16:34:28 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:34:32 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:36:16 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:36:16 [Thread-330] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:36:16 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:36:16 [Thread-330] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:36:16 [Thread-330] INFO  : HikariPool-91 - Shutdown initiated...
+2025-04-17 16:36:16 [Thread-330] INFO  : HikariPool-91 - Shutdown completed.
+2025-04-17 16:36:17 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:36:17 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:36:17 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:36:17 [restartedMain] INFO  : Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:36:18 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:36:18 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:36:18 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:36:18 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:36:18 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:36:18 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1324 ms
+2025-04-17 16:36:18 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:36:18 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:36:18 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:36:18 [restartedMain] INFO  : HikariPool-92 - Starting...
+2025-04-17 16:36:18 [restartedMain] INFO  : HikariPool-92 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3be6e9c8
+2025-04-17 16:36:18 [restartedMain] INFO  : HikariPool-92 - Start completed.
+2025-04-17 16:36:18 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-92)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:36:19 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:36:19 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:36:20 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:36:20 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:36:20 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:36:20 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 3.599 seconds (process running for 108280.621)
+2025-04-17 16:36:20 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:36:26 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 16:36:26 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 16:36:26 [http-nio-8087-exec-1] INFO  : Completed initialization in 0 ms
+2025-04-17 16:36:26 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:37:53 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:38:12 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:39:10 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:39:10 [Thread-334] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:39:10 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:39:10 [Thread-334] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:39:10 [Thread-334] INFO  : HikariPool-92 - Shutdown initiated...
+2025-04-17 16:39:10 [Thread-334] INFO  : HikariPool-92 - Shutdown completed.
+2025-04-17 16:39:10 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:39:10 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:39:12 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:39:12 [restartedMain] INFO  : Finished Spring Data repository scanning in 150 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:39:13 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:39:13 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:39:13 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:39:14 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:39:14 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:39:14 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3175 ms
+2025-04-17 16:39:14 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:39:14 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:39:15 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:39:15 [restartedMain] INFO  : HikariPool-93 - Starting...
+2025-04-17 16:39:15 [restartedMain] INFO  : HikariPool-93 - Added connection com.mysql.cj.jdbc.ConnectionImpl@536feb3b
+2025-04-17 16:39:15 [restartedMain] INFO  : HikariPool-93 - Start completed.
+2025-04-17 16:39:15 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-93)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:39:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:39:17 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:39:18 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:39:18 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:39:18 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:39:18 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 8.162 seconds (process running for 108458.935)
+2025-04-17 16:39:18 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:40:31 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:40:31 [Thread-338] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:40:31 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:40:31 [Thread-338] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:40:31 [Thread-338] INFO  : HikariPool-93 - Shutdown initiated...
+2025-04-17 16:40:31 [Thread-338] INFO  : HikariPool-93 - Shutdown completed.
+2025-04-17 16:40:32 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:40:32 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:40:33 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:40:33 [restartedMain] INFO  : Finished Spring Data repository scanning in 115 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:40:34 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:40:34 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:40:34 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:40:35 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:40:35 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:40:35 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2703 ms
+2025-04-17 16:40:35 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:40:35 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:40:35 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:40:35 [restartedMain] INFO  : HikariPool-94 - Starting...
+2025-04-17 16:40:35 [restartedMain] INFO  : HikariPool-94 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40329a9
+2025-04-17 16:40:35 [restartedMain] INFO  : HikariPool-94 - Start completed.
+2025-04-17 16:40:35 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-94)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:40:36 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:40:36 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:40:37 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:40:38 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:40:38 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:40:38 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 6.232 seconds (process running for 108538.475)
+2025-04-17 16:40:38 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:40:49 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:40:49 [Thread-342] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:40:49 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:40:49 [Thread-342] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:40:49 [Thread-342] INFO  : HikariPool-94 - Shutdown initiated...
+2025-04-17 16:40:49 [Thread-342] INFO  : HikariPool-94 - Shutdown completed.
+2025-04-17 16:40:50 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:40:50 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:40:51 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:40:52 [restartedMain] INFO  : Finished Spring Data repository scanning in 652 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:40:53 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:40:53 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:40:53 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:40:53 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:40:53 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:40:53 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3406 ms
+2025-04-17 16:40:53 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:40:54 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:40:54 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:40:54 [restartedMain] INFO  : HikariPool-95 - Starting...
+2025-04-17 16:40:54 [restartedMain] INFO  : HikariPool-95 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b3db1ab
+2025-04-17 16:40:54 [restartedMain] INFO  : HikariPool-95 - Start completed.
+2025-04-17 16:40:54 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-95)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:40:55 [restartedMain] INFO  : HikariPool-95 - Shutdown initiated...
+2025-04-17 16:40:55 [restartedMain] INFO  : HikariPool-95 - Shutdown completed.
+2025-04-17 16:40:55 [restartedMain] INFO  : Stopping service [Tomcat]
+2025-04-17 16:40:55 [restartedMain] INFO  : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-04-17 16:40:57 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:40:57 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:40:58 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:40:59 [restartedMain] INFO  : Finished Spring Data repository scanning in 128 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:40:59 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:40:59 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:40:59 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:40:59 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:40:59 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:40:59 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1947 ms
+2025-04-17 16:41:00 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:41:00 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:41:00 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:41:00 [restartedMain] INFO  : HikariPool-96 - Starting...
+2025-04-17 16:41:00 [restartedMain] INFO  : HikariPool-96 - Added connection com.mysql.cj.jdbc.ConnectionImpl@32bca193
+2025-04-17 16:41:00 [restartedMain] INFO  : HikariPool-96 - Start completed.
+2025-04-17 16:41:00 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-96)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:41:00 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:41:01 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:41:01 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:41:02 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:41:02 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:41:02 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 4.708 seconds (process running for 108562.664)
+2025-04-17 16:41:02 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:41:13 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:41:13 [Thread-346] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:41:13 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:41:13 [Thread-346] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:41:13 [Thread-346] INFO  : HikariPool-96 - Shutdown initiated...
+2025-04-17 16:41:13 [Thread-346] INFO  : HikariPool-96 - Shutdown completed.
+2025-04-17 16:41:13 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:41:13 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:41:14 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:41:14 [restartedMain] INFO  : Finished Spring Data repository scanning in 194 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:41:15 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:41:15 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:41:15 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:41:15 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:41:15 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:41:15 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 1691 ms
+2025-04-17 16:41:15 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:41:15 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:41:15 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:41:15 [restartedMain] INFO  : HikariPool-97 - Starting...
+2025-04-17 16:41:15 [restartedMain] INFO  : HikariPool-97 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41b74b41
+2025-04-17 16:41:15 [restartedMain] INFO  : HikariPool-97 - Start completed.
+2025-04-17 16:41:15 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-97)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:41:16 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:41:16 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:41:17 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:41:17 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:41:17 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:41:17 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 4.241 seconds (process running for 108577.97)
+2025-04-17 16:41:17 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:41:20 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 16:41:20 [Thread-353] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:41:20 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:41:20 [Thread-353] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:41:20 [Thread-353] INFO  : HikariPool-97 - Shutdown initiated...
+2025-04-17 16:41:20 [Thread-353] INFO  : HikariPool-97 - Shutdown completed.
+2025-04-17 16:41:21 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:41:21 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:41:22 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:41:22 [restartedMain] INFO  : Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:41:23 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:41:23 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:41:23 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:41:23 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:41:23 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:41:23 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2684 ms
+2025-04-17 16:41:23 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:41:24 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:41:24 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:41:24 [restartedMain] INFO  : HikariPool-98 - Starting...
+2025-04-17 16:41:24 [restartedMain] INFO  : HikariPool-98 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fa84d3b
+2025-04-17 16:41:24 [restartedMain] INFO  : HikariPool-98 - Start completed.
+2025-04-17 16:41:24 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-98)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:41:24 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:41:25 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:41:25 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:41:26 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:41:26 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:41:26 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 5.396 seconds (process running for 108586.444)
+2025-04-17 16:41:26 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:43:32 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 16:43:32 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 16:43:32 [http-nio-8087-exec-1] INFO  : Completed initialization in 16 ms
+2025-04-17 16:43:32 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:43:34 [http-nio-8087-exec-3] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=null)]
+2025-04-17 16:43:34 [http-nio-8087-exec-3] INFO  : Fetched all ClientMaster: null
+2025-04-17 16:46:36 [http-nio-8087-exec-5] INFO  : Login Success with role: ROLE_MERCHANT
+2025-04-17 16:49:46 [File Watcher] INFO  : Restarting due to 548 class path changes (0 additions, 493 deletions, 55 modifications)
+2025-04-17 16:49:46 [Thread-357] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 16:49:46 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 16:49:46 [Thread-357] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:49:46 [Thread-357] INFO  : HikariPool-98 - Shutdown initiated...
+2025-04-17 16:49:46 [Thread-357] INFO  : HikariPool-98 - Shutdown completed.
+2025-04-17 16:49:55 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 16:49:55 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 16:49:56 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 16:49:56 [restartedMain] INFO  : Finished Spring Data repository scanning in 98 ms. Found 6 JPA repository interfaces.
+2025-04-17 16:49:57 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 16:49:57 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 16:49:57 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 16:49:58 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 16:49:58 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 16:49:58 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3080 ms
+2025-04-17 16:49:58 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 16:49:58 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 16:49:58 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 16:49:58 [restartedMain] INFO  : HikariPool-99 - Starting...
+2025-04-17 16:49:58 [restartedMain] INFO  : HikariPool-99 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b832566
+2025-04-17 16:49:58 [restartedMain] INFO  : HikariPool-99 - Start completed.
+2025-04-17 16:49:58 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-99)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 16:49:59 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 16:50:00 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 16:50:01 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 16:50:01 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 16:50:01 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 16:50:01 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 6.904 seconds (process running for 109102.068)
+2025-04-17 16:50:01 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 16:50:25 [http-nio-8087-exec-2] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 16:50:25 [http-nio-8087-exec-2] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 16:50:25 [http-nio-8087-exec-2] INFO  : Completed initialization in 7 ms
+2025-04-17 16:50:41 [http-nio-8087-exec-8] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 16:50:41 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:50:44 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:50:50 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:50:56 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:01 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:05 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:07 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:10 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:11 [http-nio-8087-exec-6] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=null)]
+2025-04-17 16:51:11 [http-nio-8087-exec-6] INFO  : Fetched all ClientMaster: null
+2025-04-17 16:51:13 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:13 [http-nio-8087-exec-8] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=null)]
+2025-04-17 16:51:13 [http-nio-8087-exec-8] INFO  : Fetched all ClientMaster: null
+2025-04-17 16:51:17 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:20 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:21 [http-nio-8087-exec-7] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=null)]
+2025-04-17 16:51:21 [http-nio-8087-exec-7] INFO  : Fetched all ClientMaster: null
+2025-04-17 16:51:40 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:51:54 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:55:57 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:57:32 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:57:39 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:57:39 [http-nio-8087-exec-7] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=null)]
+2025-04-17 16:57:39 [http-nio-8087-exec-7] INFO  : Fetched all ClientMaster: null
+2025-04-17 16:59:10 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 16:59:10 [http-nio-8087-exec-7] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true))]
+2025-04-17 16:59:10 [http-nio-8087-exec-7] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true)
+2025-04-17 18:03:07 [http-nio-8087-exec-2] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 18:03:07 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:03:10 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:20:34 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:21:00 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:21:08 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:23:12 [http-nio-8087-exec-3] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:26:23 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:27:04 [File Watcher] INFO  : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-04-17 18:27:04 [Thread-361] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 18:27:04 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 18:27:04 [Thread-361] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 18:27:04 [Thread-361] INFO  : HikariPool-99 - Shutdown initiated...
+2025-04-17 18:27:04 [Thread-361] INFO  : HikariPool-99 - Shutdown completed.
+2025-04-17 18:27:05 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 21.0.6 with PID 8548 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 18:27:05 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 18:27:06 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 18:27:06 [restartedMain] INFO  : Finished Spring Data repository scanning in 97 ms. Found 6 JPA repository interfaces.
+2025-04-17 18:27:07 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 18:27:07 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 18:27:07 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 18:27:07 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 18:27:07 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 18:27:07 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 2374 ms
+2025-04-17 18:27:08 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 18:27:08 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 18:27:08 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 18:27:08 [restartedMain] INFO  : HikariPool-100 - Starting...
+2025-04-17 18:27:08 [restartedMain] INFO  : HikariPool-100 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e261f98
+2025-04-17 18:27:08 [restartedMain] INFO  : HikariPool-100 - Start completed.
+2025-04-17 18:27:08 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-100)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 18:27:09 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 18:27:10 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 18:27:11 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 18:27:11 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 18:27:11 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 18:27:11 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 6.646 seconds (process running for 114931.989)
+2025-04-17 18:27:11 [restartedMain] INFO  : Condition evaluation unchanged
+2025-04-17 18:27:15 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 18:27:15 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 18:27:15 [http-nio-8087-exec-1] INFO  : Completed initialization in 2 ms
+2025-04-17 18:27:15 [http-nio-8087-exec-1] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:27:31 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:27:55 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:28:14 [http-nio-8087-exec-3] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 18:28:14 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:28:16 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:30:30 [RMI TCP Connection(718)-127.0.0.1] INFO  : Application shutdown requested.
+2025-04-17 18:30:30 [RMI TCP Connection(718)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 18:30:30 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 18:30:30 [RMI TCP Connection(718)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 18:30:30 [RMI TCP Connection(718)-127.0.0.1] INFO  : HikariPool-100 - Shutdown initiated...
+2025-04-17 18:30:30 [RMI TCP Connection(718)-127.0.0.1] INFO  : HikariPool-100 - Shutdown completed.
+2025-04-17 18:30:37 [restartedMain] INFO  : Starting AbcmKycServiceUiApplication using Java 17.0.10 with PID 17872 (C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui\target\classes started by Shyam in C:\Users\Shyam\Documents\ABCM-KYC\abcm-kyc-service-ui)
+2025-04-17 18:30:37 [restartedMain] INFO  : The following 1 profile is active: "dev"
+2025-04-17 18:30:37 [restartedMain] INFO  : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-04-17 18:30:37 [restartedMain] INFO  : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-04-17 18:30:39 [restartedMain] INFO  : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-04-17 18:30:39 [restartedMain] INFO  : Finished Spring Data repository scanning in 172 ms. Found 6 JPA repository interfaces.
+2025-04-17 18:30:40 [restartedMain] INFO  : Tomcat initialized with port 8087 (http)
+2025-04-17 18:30:40 [restartedMain] INFO  : Starting service [Tomcat]
+2025-04-17 18:30:40 [restartedMain] INFO  : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-17 18:30:41 [restartedMain] INFO  : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2025-04-17 18:30:41 [restartedMain] INFO  : Initializing Spring embedded WebApplicationContext
+2025-04-17 18:30:41 [restartedMain] INFO  : Root WebApplicationContext: initialization completed in 3805 ms
+2025-04-17 18:30:41 [restartedMain] INFO  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-17 18:30:41 [restartedMain] INFO  : HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-17 18:30:41 [restartedMain] INFO  : HHH000026: Second-level cache disabled
+2025-04-17 18:30:42 [restartedMain] INFO  : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-04-17 18:30:42 [restartedMain] INFO  : HikariPool-1 - Starting...
+2025-04-17 18:30:43 [restartedMain] INFO  : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76646f78
+2025-04-17 18:30:43 [restartedMain] INFO  : HikariPool-1 - Start completed.
+2025-04-17 18:30:43 [restartedMain] INFO  : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-17 18:30:46 [restartedMain] INFO  : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-17 18:30:47 [restartedMain] INFO  : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 18:30:47 [restartedMain] INFO  : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-04-17 18:30:49 [restartedMain] INFO  : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-04-17 18:30:51 [restartedMain] INFO  : LiveReload server is running on port 35729
+2025-04-17 18:30:51 [restartedMain] INFO  : Tomcat started on port 8087 (http) with context path '/'
+2025-04-17 18:30:51 [restartedMain] INFO  : Started AbcmKycServiceUiApplication in 14.599 seconds (process running for 16.756)
+2025-04-17 18:30:51 [http-nio-8087-exec-1] INFO  : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-17 18:30:51 [http-nio-8087-exec-1] INFO  : Initializing Servlet 'dispatcherServlet'
+2025-04-17 18:30:51 [http-nio-8087-exec-1] INFO  : Completed initialization in 0 ms
+2025-04-17 18:30:56 [http-nio-8087-exec-5] INFO  : Login Success with role: ROLE_ADMIN
+2025-04-17 18:30:56 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:30:59 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:07 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:10 [http-nio-8087-exec-10] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:11 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:17 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:19 [http-nio-8087-exec-9] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:22 [http-nio-8087-exec-6] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:26 [http-nio-8087-exec-5] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:30 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:32 [http-nio-8087-exec-7] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:34 [http-nio-8087-exec-2] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:36 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:38 [http-nio-8087-exec-8] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:38 [http-nio-8087-exec-1] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true))]
+2025-04-17 18:34:38 [http-nio-8087-exec-1] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true)
+2025-04-17 18:34:53 [http-nio-8087-exec-4] INFO  : Welcome to Admin Dashboard: admin
+2025-04-17 18:34:53 [http-nio-8087-exec-6] INFO  : Fetched all merchants: [Merchant_Master(id=1, mid=9001, name=test, source=tewst, status=true, mode=test, rate=1, email=test, serviceProviderName=null, websiteUrl=null, buissnessAaddress=null, country=null, state=null, city=null, pincode=null, phoneOne=null, phoneTwo=null, businessType=null, AaddharRate=0.0, PanRate=0.0, GstRate=0.0, gstAdvanceRate=0.0, credentials=Credentials(username=TEST, password=123, createdBy=TEST, createdAt=null, modifiedBy=TEST, modifiedAt=null), role=Role(id=2, roleName=ROLE_MERCHANT), dashboard=DESABLE, billing=DESABLE, product=DESABLE, apps=DESABLE, aadharOkyc=DESABLE, panPro=DESABLE, gstLit=DESABLE, clientMaster=ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true))]
+2025-04-17 18:34:53 [http-nio-8087-exec-6] INFO  : Fetched all ClientMaster: ClientMaster(id=1, createdBy=TEST, createdOn=null, environment=TEST, appId=TEST, serviceProviderName=ZOOP, apiKey=TEST, apiAadharUrl1=null, apiAadharUrl2=null, apiGstUrl1=null, apiGstUrl2=null, apiPanUrl1=null, apiPanUrl2=null, udf1=null, udf2=null, udf3=null, udf4=null, udf5=null, status=true)
+2025-04-17 18:35:52 [http-nio-8087-exec-5] INFO  : Login Success with role: ROLE_MERCHANT
+2025-04-17 18:36:27 [RMI TCP Connection(9)-127.0.0.1] INFO  : Application shutdown requested.
+2025-04-17 18:36:27 [RMI TCP Connection(9)-127.0.0.1] INFO  : Commencing graceful shutdown. Waiting for active requests to complete
+2025-04-17 18:36:27 [tomcat-shutdown] INFO  : Graceful shutdown complete
+2025-04-17 18:36:27 [RMI TCP Connection(9)-127.0.0.1] INFO  : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-04-17 18:36:27 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown initiated...
+2025-04-17 18:36:27 [RMI TCP Connection(9)-127.0.0.1] INFO  : HikariPool-1 - Shutdown completed.

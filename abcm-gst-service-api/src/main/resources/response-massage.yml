@@ -1,0 +1,51 @@
+custom:
+  messages:
+    success: "Success"
+    service-inactive: "service is inactive"
+    merchant-inactive: "Merchant is inactive."
+    internal-server: "Internal Server Error"
+    external-server: "External Server Error"
+    failed: "Failed"
+    Balance: "Insufficient balance for the Merchant"
+    Key: "Unauthorized Invalid API Key or App ID"
+    Wallet-not-found: "Wallet Not Found"
+    merchantId-Validation: "Merchant ID is missing or incorrect"
+    Consent-Validation: "Consent must be 'Y'"
+    Gst-validation: "GST number is required for verification"
+    GST-format-validation: "GST Number format does not match"
+    Error-Response: "Error while processing the response"
+    Data-NotFound: "GST Report Data Not Found"
+    gst-report-not-found: "No records found."
+    product-not-found: "Product Details not found"
+    gst-valid-msg: "GST verification successfully"
+    gst-invalid-msg: "GST verification failed"
+    provider-invalid-res: "The service is currently unavailable. Please try again later"
+    porvider-blc-low: "Server is currently busy. Please try again later."
+    Not-Found: "Merchant Details Not Found"
+    wallet-expired: "Wallet validity expired"
+    order-id-missing: "Order ID is required."
+    order-id-duplicate: "Provided Order ID already exists. Please provide a unique Order ID."
+
+  codes:
+    success: 200
+    service-inactive: 201
+    merchant-inactive: 202
+    Balance: 203
+    Wallet-not-found: 204
+    merchantId-Validation: 205
+    Consent-Validation: 206
+    Gst-validation: 207
+    GST-format-validation: 210
+    gst-valid-msg: 211
+    gst-invalid-msg: 212
+    Key: 403
+    failed: 500
+    internal-server: 500
+    external-server: 501
+    provider-invalid-res: 503
+    Error-Response: 505
+    Data-NotFound: 404
+    product-not-found: 422
+    porvider-blc-low: 429
+    wallet-expired: 309
+    order-id-missing: 400

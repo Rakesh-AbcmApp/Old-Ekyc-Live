@@ -1,0 +1,26 @@
+email.send.from: noreply@abcmapp.com
+email.send.to: support@ablepay.in 
+#support@ablepay.in 
+email.send.bcc: support@abcmapp.com,krushna.dakale@abcmapp.dev
+#support@abcmapp.com
+email.failure.send.otp.subject.prefix: e-KYC Service {productName} Verification Failed
+email.failure.verify.otp.subject.prefix: e-KYC Service {productName} Verification Failed
+email.failure.verify.dglocker.subject.prefix: e-KYC Service {productName} Verification Failed
+email.failure.template.path: /opt/tomcat/webapps/abcm-adhar-api/WEB-INF/classes/static/e-KYCEmailTemplate/AdharFailedTemplate.html
+#C://KYCGIT//abcm-aadhaar-api//src//main//resources//static//e-KYCEmailTemplate/AdharFailedTemplate.html
+email.lowBalance.template.path: /opt/tomcat/webapps/abcm-adhar-api/WEB-INF/classes/static/e-KYCEmailTemplate/insufficient-balance-1.html
+#C://KYCGIT//abcm-aadhaar-api//src//main//resources//static//e-KYCEmailTemplate//eKyc-lowallet-balance.html
+email.send.api.url: https://enotification.chatnpay.com/email/withmailer/sendEmailWithAttachmentWithCc
+email.lowbalance.subject: Service Suspended Due to Insufficient Wallet Balance
+
+email.serviceDown.subject : "Important: e-KYC Service Interruption Due to High Demand"
+email.serviceDown.template.path: /opt/tomcat/webapps/abcm-adhar-api/WEB-INF/classes/static/e-KYCEmailTemplate/e-KycServiceDownEmail-T.html 
+# /opt/apache-tomcat-10.1.28_ablepay/webapps/abcm-dl-api/WEB-INF/classes/static/e-KycServiceDownEmail-T.html
+Env: LIVE Environment
+
+email.webhookfailed.subject : "API Response Update Failure – Action Required {Product} - {Merchant}"
+
+
+
+email.webhookfailed.template.path: /opt/tomcat/webapps/abcm-adhar-api/WEB-INF/classes/static/e-KYCEmailTemplate/e-KycServiceWebhookFailed.html 
+

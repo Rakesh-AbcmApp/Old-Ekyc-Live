@@ -1,0 +1,37 @@
+custom:
+  messages:
+    success: "Success"
+    service-inactive: "Aadhaar service is inactive."
+    merchant-inactive: "Merchant is inactive."
+    internal-server: "Internal server error."
+    external-server: "External server error."
+    failed: "Request failed."
+    balance: "Insufficient balance for the merchant."
+    key: "Unauthorized: Invalid API key or App ID."
+    wallet-not-found: "Wallet not found."
+    merchant-id-validation: "Merchant ID is missing or incorrect."
+    consent-validation: "Consent must be 'Y'."
+    aadhaar-validation: "Invalid Aadhaar Number or Missing."
+    request-id-validation: "Invalid input: Request ID is required."
+    aadhaar-otp-validation: "Invalid input: Aadhaar OTP is required."
+    aadhaar-format-validation: "Invalid Aadhaar number. Please enter a valid 12-digit Aadhaar."
+    data-not-found: "Record Not Found"
+
+  codes:
+    success: 200
+    service-inactive: 201
+    merchant-inactive: 202
+    balance: 203
+    wallet-not-found: 204
+    merchant-id-validation: 205
+    consent-validation: 206
+    aadhaar-validation: 207
+    request-id-validation: 208
+    aadhaar-otp-validation: 209
+    aadhaar-format-validation: 210
+    key: 403
+    limit-exceeded: 429
+    failed: 500
+    internal-server: 500
+    external-server: 501
+    data-not-found: 404

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: abcm-e-Sign-api
+  profiles:
+    active: dev
+  config:
+     import: 
+          - "classpath:/response-massage.yml"
+          - "classpath:/application-email-config.yml"

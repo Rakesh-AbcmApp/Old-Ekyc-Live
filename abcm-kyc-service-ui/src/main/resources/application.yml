@@ -1,0 +1,10 @@
+    
+spring:
+  application:
+    name: abcm-kyc-service-ui
+  profiles:
+    active: dev
+  config:
+    import:
+      - "classpath:/response-codes.yml"
+      - "classpath:/application-email-config.yml"

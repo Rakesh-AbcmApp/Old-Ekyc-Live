@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Warning Email</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Poppins', sans-serif; background-color: #f4f4f4;">
+
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden;">
+    
+    <!-- Logo -->
+    <tr>
+      <td align="center" style="padding: 20px 0; background-color: #f4f4f4;">
+        <img src="logo.png" alt="Mail Icon" width="150">
+      </td>
+    </tr>
+
+    <!-- Header -->
+    <tr>
+      <td align="center" bgcolor="#29588e" style="padding: 12px; color: #fff; font-size: 15px; font-weight: 600;">
+        Mismatch Detected
+      </td>
+    </tr>
+
+    <!-- Content -->
+    <tr>
+      <td align="center" style="padding: 30px 20px 8px 20px;">
+        <img src="error.png" alt="Warning Icon" width="60" style="margin-bottom: 20px;">
+        <h2 style="color: #333; font-size: 16px; font-weight: 600;text-align: left; margin-left: 38px;">Hello {{MerchantName}}</h2>
+        <p style="font-size: 13px; color: #555; text-align: left; max-width: 480px; margin: 0 auto;">
+          We were unable to deliver a message to <strong>{{sendTo}}</strong> via the ChatnPay service due to a <strong>template mismatch</strong>.
+        </p>
+
+        <p style="font-size: 13px; color: #555; text-align: left; max-width: 480px; margin: 15px auto 0;">
+          <strong>Template ID:</strong> {{templateId}}<br>
+          <strong>Error:</strong> {{errorDetails}}.
+        </p>
+        <!-- CTA Button -->
+        <a href="#" style="display: inline-block;
+          margin-top: 20px;
+          padding: 7px 25px;
+          background-color: #e50027;
+          color: #fff;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 0.8rem;">
+          TAKE ACTION
+        </a>
+        <p style="font-size: 13px; color: #555; text-align: left; max-width: 480px; margin: 15px auto 0;">
+          Please review the message and ensure it aligns exactly with the approved template associated with the above ID.
+          If you need help updating or validating your message, our support team is here to assist you.
+        </p>
+        
+        <p style="font-size: 13px; color: #555; text-align: left; max-width: 480px; margin: 15px auto 0;">
+          Thank you for your attention.
+        </p>
+
+        <p style="font-size: 13px; color: #555; text-align: left; max-width: 480px; margin: 15px auto 0;">
+          Best Regards,<br><strong>Team ChatnPay</strong>
+        </p>
+      </td>
+    </tr>
+
+    <!-- Thank you -->
+    <!-- <tr>
+      <td align="center" style="padding: 20px; font-size: 14px; color: #777;">
+        Thank you for choosing ChatnPay.
+      </td>
+    </tr> -->
+
+    <!-- Footer -->
+    <tr>
+      <td align="center" bgcolor="#f4f4f4" style="padding: 20px;">
+        <p style="font-size: 12px; color: #999;">© 2025 ChatnPay.com. All rights reserved.</p>
+        <!-- <p style="font-size: 12px; color: #999;">123 Incredible Street, SomeTown, OR, 87466 US</p> -->
+        <a href="#" style="font-size: 12px; color: #2d9cdb;">Unsubscribe</a>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

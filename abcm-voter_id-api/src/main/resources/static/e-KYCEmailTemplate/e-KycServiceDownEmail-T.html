@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Service Down Alert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    p {
+      margin: 6px 0;
+      font-size: 13px;
+    }
+    .table-body {
+      background-image: url(http://203.192.228.125:1002/abcm-dl-api/e-KYCEmailTemplate/blank-1.jpg);
+      background-position-y: -14px;
+      background-repeat: no-repeat;
+      height: 200px;
+      background-size: initial;
+    }
+    .table-body img {
+      background-color: #ffffff;
+      width: 100px;
+      margin: 1rem;
+    }
+    .table-inner {
+      padding: 0 0.75rem;
+    }
+    .xx-low-blnc {
+      text-align: center;
+    }
+    .xx-low-blnc h2 {
+      margin: 0;
+      color: #ffffff;
+      font-size: 2rem;
+      line-height: 53px;
+      text-shadow: 0 1px 2px #000000;
+    }
+    .xx-low-blnc span {
+      margin: 0;
+      color: #ea3135;
+      font-size: 2.2rem;
+      font-weight: bolder;
+      line-height: 40px;
+      text-shadow: 0 1px 1px #000000;
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#f4f4f4; font-family: 'Poppins', sans-serif;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#f4f4f4" style="margin: 1rem 0;">
+    <tr>
+      <td align="center">
+        <table width="600" cellpadding="0" cellspacing="0" border="0" style="background-color:#ffffff; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+          <tr>
+            <td style="padding:0;">
+              <div class="table-body">
+                <img src="https://ekyc.ablepay.in/view-kyc/assets/images/logo.png" alt="logo">
+                <div class="xx-low-blnc">
+                  <h2>Service Disruption</h2>
+                  <span>{{providerName}}</span>
+                </div>
+              </div>
+              <div class="table-inner">
+                <p><strong>Dear Support Team,</strong></p>
+
+                <p>This is to inform you that the Provider service <strong>{{providerName}}</strong> is currently <strong>down</strong> or not responding.</p>
+
+                <p>Please look into the issue at your earliest convenience.</p>
+
+                <p><strong>Service Provider:</strong> {{providerName}}<br>
+                <p><strong>Product:</strong> {{Service_Name}}<br>
+                <strong>Environment:</strong> {{Environment}}</p>
+                <p><strong>Provider Reason:</strong> {{Reason}}<br>
+				 <p><strong>Timestamp:</strong> {{Timestamp}}<br><br>
+
+                <p>Thank you,<br><strong>Team ABCM App</strong></p>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding:20px; text-align:center; font-size:12px; color:#888888; background: azure;">
+              &copy; 2025 ABCM  App. All rights reserved.
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

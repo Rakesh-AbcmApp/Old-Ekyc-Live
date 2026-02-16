@@ -1,0 +1,49 @@
+
+
+
+.kyc-login-form input{
+    border-radius: 0 !important;
+}
+
+.kyc-login-form button{
+    background: #08508d;
+    border-radius: 11px;
+    border: 1px solid #08508d;
+    padding: 12px 0;
+}
+.lgb{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+}
+
+/* media css for login page */
+
+@media only screen and (max-width:500px){
+    .xx-login-footer {
+            left: 10px !important;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:768px){
+    .xx-login-footer {
+            left: 120px !important;
+    }
+}
+@media only screen and (max-width:1199.98px){
+    .auth-main .auth-wrapper.v2 {
+        flex-direction: column;
+    }
+    .auth-sidecontent {
+        background: transparent !important;
+        height: auto !important;
+    }
+    .auth-form .card {
+        padding: 0 ;
+    }
+    .auth-main .auth-wrapper .auth-form {
+        display: inline-block;
+    }
+}
+
+
+/* media css for login page end */

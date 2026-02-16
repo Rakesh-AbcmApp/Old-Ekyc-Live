@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: abcm-aadhaar-api
+  profiles:
+    active: prod
+  config:
+    import:
+      - "classpath:/response-massage.yml"
+      - "classpath:/application-email-config.yml"

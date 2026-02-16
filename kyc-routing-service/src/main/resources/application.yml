@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: classpath:response-codes.yml
+  profiles:
+    active: dev
+  application:
+    name: abcm-kyc-routing-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  prometheus:
+    metrics:
+      export:
+        enabled: true
