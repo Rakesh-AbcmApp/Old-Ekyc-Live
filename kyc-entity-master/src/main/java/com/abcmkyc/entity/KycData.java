@@ -236,6 +236,10 @@ public class KycData {
 	
 	@Column(name="document_path")
 	private String documentPath;
+
+    @Convert(converter = FieldEncryptor.class)
+    @Column(name = "merchant_webhook_payload", columnDefinition = "LONGTEXT")
+    private String merchantWebhookPayload;
 	
 	
 	

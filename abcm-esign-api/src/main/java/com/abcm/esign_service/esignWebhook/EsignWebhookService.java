@@ -82,7 +82,7 @@ public class EsignWebhookService {
 
         esignRepository.saveAll(kycList);
         log.info("Webhook status updated for {} signer(s), orderId: {}",
-                kycList.size(), kycList.isEmpty() ? "N/A" : kycList.getFirst().getOrderId());
+                kycList.size(), kycList.isEmpty() ? "N/A" : kycList.get(0).getOrderId());
 
         // Post response to merchant webhook (async — don't block Zoop)
         postResponseToMerchant(json, kycList);
@@ -101,10 +101,10 @@ public class EsignWebhookService {
         }
 
         // Get merchant webhook URL from KycData
-        String merchantWebhookUrl = signersList.getFirst().getMerchantWebhookUrl();
+        String merchantWebhookUrl = signersList.get(0).getMerchantWebhookUrl();
         if (merchantWebhookUrl == null || merchantWebhookUrl.isBlank()) {
             log.info("No merchant webhook URL configured, skipping POST for orderId: {}",
-                    signersList.getFirst().getOrderId());
+                    signersList.get(0).getOrderId());
             return;
         }
 
@@ -130,7 +130,7 @@ public class EsignWebhookService {
 
             } catch (Exception e) {
                 log.error("Merchant webhook POST failed for orderId: {}: {}",
-                        signersList.getFirst().getOrderId(), e.getMessage(), e);
+                        signersList.get(0).getOrderId(), e.getMessage(), e);
                 updateMerchantWebhookStatus(signersList, false);
             }
         });
@@ -187,7 +187,7 @@ public class EsignWebhookService {
                 .collect(Collectors.toMap(KycData::getRequestId, Function.identity()));
 
         // Set top-level fields
-        KycData firstSigner = signersList.getFirst();
+        KycData firstSigner = signersList.get(0);
         responseDTO.setMerchantId(firstSigner.getMerchantId());
         responseDTO.setOrderId(firstSigner.getOrderId());
         responseDTO.setSuccess(response.optBoolean("success"));
@@ -252,7 +252,7 @@ public class EsignWebhookService {
             }
             esignRepository.saveAll(signersList);
             log.info("Merchant webhook status updated to {} for orderId: {}",
-                    success, signersList.getFirst().getOrderId());
+                    success, signersList.get(0).getOrderId());
         } catch (Exception e) {
             log.error("Failed to update merchant webhook status: {}", e.getMessage());
         }
