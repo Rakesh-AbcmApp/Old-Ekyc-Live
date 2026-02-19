@@ -242,6 +242,24 @@ public class KycData {
     private String merchantWebhookPayload;
 	
 	
+	@Column(name = "signer_email_notification", length = 50)
+	private String signerEmailNotification;
+	
+	 @Column(name = "signed_at")
+	 private LocalDateTime signedAt;
+	 
+	 
+	 @Column(name = "signer_url",columnDefinition = "LONGTEXT")
+	   
+	    private String signerUrl;
+	
+	 
+	 @Column(name = "signer_sdk_url",columnDefinition = "LONGTEXT")
+	   
+	  private String signerSdkUrl;
+	
+	
+	
 	
 	
 	
